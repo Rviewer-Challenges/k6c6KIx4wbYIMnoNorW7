@@ -1,1 +1,7 @@
-/* You can add global styles to this file, and also import other style files */
+@import "bootstrap";
+
+
+body {
+  color: hsl(198, 0%, 40%);
+  background-color: hsl(198, 0%, 98%);
+}
