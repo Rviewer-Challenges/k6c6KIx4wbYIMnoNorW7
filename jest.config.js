@@ -1,9 +1,10 @@
-const { pathsToModuleNameMapper } = require('ts-jest');
-const { compilerOptions } = require('./tsconfig');
+const { pathsToModuleNameMapper } = require("ts-jest");
+const { compilerOptions } = require("./tsconfig.json");
 
-const esModules = ['.*\\.mjs$'].join('|'); // in case of es modules include here.
+const esModules = [".*\\.mjs$"].join("|");
 
 module.exports = {
+  maxWorkers: '50%',
   preset: 'jest-preset-angular',
   roots: ['<rootDir>/src/'],
   testMatch: ['**/+(*.)+(spec).+(ts)'],
@@ -19,11 +20,13 @@ module.exports = {
     "<rootDir>/src/__test__/*",
     "<rootDir>/src/environments/*"
   ],
-  moduleNameMapper: Object.assign(pathsToModuleNameMapper(compilerOptions.paths || {}, {
-    prefix: '<rootDir>/src',
-  }), {
-  }),
+  moduleNameMapper: Object.assign(
+    pathsToModuleNameMapper(compilerOptions.paths || {}, {
+      prefix: '<rootDir>/src',
+    }), {}
+  ),
   transformIgnorePatterns: [`/node_modules/(?!${esModules})`],
-  maxWorkers: '50%',
   cacheDirectory: '<rootDir>/.cache',
 };
+
+
