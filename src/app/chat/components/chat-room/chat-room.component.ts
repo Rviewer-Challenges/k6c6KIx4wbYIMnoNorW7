@@ -1,5 +1,5 @@
-import { Component, OnInit } from '@angular/core';
-import { Auth, AuthService } from '@app/auth/services/auth.service';
+import { Component } from '@angular/core';
+import { AuthService } from '@app/auth/services/auth.service';
 import { LocalStorageService } from '@app/services/local-storage.service';
 
 @Component({
@@ -7,18 +7,14 @@ import { LocalStorageService } from '@app/services/local-storage.service';
   templateUrl: './chat-room.component.html',
   styleUrls: ['./chat-room.component.scss'],
 })
-export class ChatRoomComponent implements OnInit {
-  constructor(
-    private authService: AuthService,
-    private localStorage: LocalStorageService
-  ) {}
+export class ChatRoomComponent {
+  constructor(private authService: AuthService) {}
 
   signOut() {
     this.authService.SignOut().subscribe();
   }
 
-  ngOnInit(): void {
-    const user = this.localStorage.get(Auth.User);
-    console.log(user);
+  getUser() {
+    this.authService;
   }
 }

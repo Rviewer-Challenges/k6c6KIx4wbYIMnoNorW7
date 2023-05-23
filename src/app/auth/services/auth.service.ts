@@ -23,7 +23,6 @@ export class AuthService {
   SignIn() {
     return this.AuthLogin(new auth.GoogleAuthProvider());
   }
-
   SignOut(): Observable<void> {
     return from(this.ngFirebaseAuth.signOut()).pipe(
       tap(() => {

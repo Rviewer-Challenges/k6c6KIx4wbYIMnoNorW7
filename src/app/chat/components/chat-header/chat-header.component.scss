@@ -1,0 +1,88 @@
+:host {
+  display: block;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+.dropdown-menu-right {
+  right: 0 !important;
+  left: auto !important;
+}
+.main-container {
+  background-color: hsl(198deg, 100%, 15%);
+  // box-shadow: 0 0 0 1px rgb(17 20 24 / 10%), 0 1px 1px rgb(17 20 24 / 20%);
+  height: 50px;
+  padding: 0 15px;
+  // position: relative;
+  width: 100%;
+  z-index: 10;
+
+  .navbar {
+    padding: 0;
+    &-group {
+      align-items: center;
+      display: flex;
+      height: 50px;
+
+      .b {
+        font-size: 24px;
+        line-height: 24px;
+        color: hsl(0, 0%, 100%);
+        pointer-events: none;
+        user-select: none;
+        &:first-letter {
+          color: hsl(9, 100%, 43%);
+        }
+      }
+      &.left {
+        float: left;
+      }
+
+      &.right {
+        float: right;
+        .user {
+          color: hsl(0, 0%, 100%);
+          fill: hsl(9, 100%, 43%);
+          border: 0
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .topbar-user {
+    background: rgba(255, 255, 255, 0.15);
+    opacity: 1;
+  }
+}
+
+
+.header-item {
+  height: 70px;
+  display: flex;
+  align-items: center;
+
+  .user-name-text,
+  .user-name-sub-text {
+    color: hsl(198, 0%, 98%);
+  }
+
+}
+
+.header-profile-user {
+  height: 32px;
+  width: 32px;
+}
+
+.fs-12 {
+  font-size: 12px!important;
+}
+.topbar-user .dropdown-menu {
+  top: 6px!important;
+}
+
+.btn {
+  box-shadow: none;
+}

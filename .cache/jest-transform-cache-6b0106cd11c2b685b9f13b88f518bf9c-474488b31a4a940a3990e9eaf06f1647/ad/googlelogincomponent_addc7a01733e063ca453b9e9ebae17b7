@@ -1,0 +1,306 @@
+2c6b6a3eed1af1d7763228ee4654d32f
+"use strict";
+
+/* istanbul ignore next */
+function cov_19h0chdjbu() {
+  var path = "C:\\Users\\ploutarchosm\\Desktop\\GIT\\k6c6KIx4wbYIMnoNorW7\\src\\app\\auth\\components\\google-login\\google-login.component.ts";
+  var hash = "ddc68854b2e91910e235645854c6e9db110cfc67";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "C:\\Users\\ploutarchosm\\Desktop\\GIT\\k6c6KIx4wbYIMnoNorW7\\src\\app\\auth\\components\\google-login\\google-login.component.ts",
+    statementMap: {
+      "0": {
+        start: {
+          line: 2,
+          column: 0
+        },
+        end: {
+          line: 2,
+          column: 62
+        }
+      },
+      "1": {
+        start: {
+          line: 3,
+          column: 0
+        },
+        end: {
+          line: 3,
+          column: 38
+        }
+      },
+      "2": {
+        start: {
+          line: 4,
+          column: 16
+        },
+        end: {
+          line: 4,
+          column: 32
+        }
+      },
+      "3": {
+        start: {
+          line: 5,
+          column: 15
+        },
+        end: {
+          line: 5,
+          column: 39
+        }
+      },
+      "4": {
+        start: {
+          line: 6,
+          column: 27
+        },
+        end: {
+          line: 17,
+          column: 1
+        }
+      },
+      "5": {
+        start: {
+          line: 8,
+          column: 8
+        },
+        end: {
+          line: 8,
+          column: 39
+        }
+      },
+      "6": {
+        start: {
+          line: 9,
+          column: 8
+        },
+        end: {
+          line: 9,
+          column: 29
+        }
+      },
+      "7": {
+        start: {
+          line: 10,
+          column: 8
+        },
+        end: {
+          line: 10,
+          column: 48
+        }
+      },
+      "8": {
+        start: {
+          line: 13,
+          column: 8
+        },
+        end: {
+          line: 15,
+          column: 11
+        }
+      },
+      "9": {
+        start: {
+          line: 14,
+          column: 24
+        },
+        end: {
+          line: 14,
+          column: 54
+        }
+      },
+      "10": {
+        start: {
+          line: 18,
+          column: 0
+        },
+        end: {
+          line: 24,
+          column: 25
+        }
+      },
+      "11": {
+        start: {
+          line: 25,
+          column: 0
+        },
+        end: {
+          line: 25,
+          column: 52
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "(anonymous_0)",
+        decl: {
+          start: {
+            line: 7,
+            column: 4
+          },
+          end: {
+            line: 7,
+            column: 5
+          }
+        },
+        loc: {
+          start: {
+            line: 7,
+            column: 37
+          },
+          end: {
+            line: 11,
+            column: 5
+          }
+        },
+        line: 7
+      },
+      "1": {
+        name: "(anonymous_1)",
+        decl: {
+          start: {
+            line: 12,
+            column: 4
+          },
+          end: {
+            line: 12,
+            column: 5
+          }
+        },
+        loc: {
+          start: {
+            line: 12,
+            column: 17
+          },
+          end: {
+            line: 16,
+            column: 5
+          }
+        },
+        line: 12
+      },
+      "2": {
+        name: "(anonymous_2)",
+        decl: {
+          start: {
+            line: 14,
+            column: 18
+          },
+          end: {
+            line: 14,
+            column: 19
+          }
+        },
+        loc: {
+          start: {
+            line: 14,
+            column: 24
+          },
+          end: {
+            line: 14,
+            column: 54
+          }
+        },
+        line: 14
+      }
+    },
+    branchMap: {},
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    f: {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    b: {},
+    inputSourceMap: {
+      file: "C:\\Users\\ploutarchosm\\Desktop\\GIT\\k6c6KIx4wbYIMnoNorW7\\src\\app\\auth\\components\\google-login\\google-login.component.ts",
+      mappings: ";;;;AAAA,wCAA0C;AAS1C,IAAa,oBAAoB,GAAjC,MAAa,oBAAoB;IAC/B,YAAoB,WAAwB,EAAU,MAAc;QAAhD,gBAAW,GAAX,WAAW,CAAa;QAAU,WAAM,GAAN,MAAM,CAAQ;QAEpE,eAAU,GAAG,qBAAqB,CAAC;IAFoC,CAAC;IAIxE,UAAU;QACR,IAAI,CAAC,WAAW,CAAC,MAAM,EAAE,CAAC,SAAS,CAAC;YAClC,IAAI,EAAE,GAAG,EAAE,CAAC,IAAI,CAAC,MAAM,CAAC,QAAQ,CAAC,CAAC,MAAM,CAAC,CAAC;SAC3C,CAAC,CAAC;IACL,CAAC;CACF,CAAA;AAVY,oBAAoB;IALhC,IAAA,gBAAS,EAAC;QACT,QAAQ,EAAE,kBAAkB;QAC5B,WAAW,EAAE,+BAA+B;QAC5C,SAAS,EAAE,CAAC,+BAA+B,CAAC;KAC7C,CAAC;GACW,oBAAoB,CAUhC;AAVY,oDAAoB",
+      names: [],
+      sources: ["C:\\Users\\ploutarchosm\\Desktop\\GIT\\k6c6KIx4wbYIMnoNorW7\\src\\app\\auth\\components\\google-login\\google-login.component.ts"],
+      sourcesContent: ["import { Component } from '@angular/core';\nimport { AuthService } from '@app/auth/services/auth.service';\nimport { Router } from '@angular/router';\n\n@Component({\n  selector: 'app-google-login',\n  templateUrl: './google-login.component.html',\n  styleUrls: ['./google-login.component.scss'],\n})\nexport class GoogleLoginComponent {\n  constructor(private authService: AuthService, private router: Router) {}\n\n  buttonText = 'Sign in with Google';\n\n  googleAuth() {\n    this.authService.SignIn().subscribe({\n      next: () => this.router.navigate(['chat']),\n    });\n  }\n}\n"],
+      version: 3
+    },
+    _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    hash: "ddc68854b2e91910e235645854c6e9db110cfc67"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+  if (!coverage[path] || coverage[path].hash !== hash) {
+    coverage[path] = coverageData;
+  }
+  var actualCoverage = coverage[path];
+  {
+    // @ts-ignore
+    cov_19h0chdjbu = function () {
+      return actualCoverage;
+    };
+  }
+  return actualCoverage;
+}
+cov_19h0chdjbu();
+cov_19h0chdjbu().s[0]++;
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+/* istanbul ignore next */
+cov_19h0chdjbu().s[1]++;
+exports.GoogleLoginComponent = void 0;
+const tslib_1 =
+/* istanbul ignore next */
+(cov_19h0chdjbu().s[2]++, require("tslib"));
+const core_1 =
+/* istanbul ignore next */
+(cov_19h0chdjbu().s[3]++, require("@angular/core"));
+/* istanbul ignore next */
+cov_19h0chdjbu().s[4]++;
+let GoogleLoginComponent = class GoogleLoginComponent {
+  constructor(authService, router) {
+    /* istanbul ignore next */
+    cov_19h0chdjbu().f[0]++;
+    cov_19h0chdjbu().s[5]++;
+    this.authService = authService;
+    /* istanbul ignore next */
+    cov_19h0chdjbu().s[6]++;
+    this.router = router;
+    /* istanbul ignore next */
+    cov_19h0chdjbu().s[7]++;
+    this.buttonText = 'Sign in with Google';
+  }
+  googleAuth() {
+    /* istanbul ignore next */
+    cov_19h0chdjbu().f[1]++;
+    cov_19h0chdjbu().s[8]++;
+    this.authService.SignIn().subscribe({
+      next: () => {
+        /* istanbul ignore next */
+        cov_19h0chdjbu().f[2]++;
+        cov_19h0chdjbu().s[9]++;
+        return this.router.navigate(['chat']);
+      }
+    });
+  }
+};
+/* istanbul ignore next */
+cov_19h0chdjbu().s[10]++;
+GoogleLoginComponent = tslib_1.__decorate([(0, core_1.Component)({
+  selector: 'app-google-login',
+  templateUrl: './google-login.component.html',
+  styleUrls: ['./google-login.component.scss']
+})], GoogleLoginComponent);
+/* istanbul ignore next */
+cov_19h0chdjbu().s[11]++;
+exports.GoogleLoginComponent = GoogleLoginComponent;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJjb3ZfMTloMGNoZGpidSIsImFjdHVhbENvdmVyYWdlIiwicyIsImNvcmVfMSIsInJlcXVpcmUiLCJHb29nbGVMb2dpbkNvbXBvbmVudCIsImNvbnN0cnVjdG9yIiwiYXV0aFNlcnZpY2UiLCJyb3V0ZXIiLCJmIiwiYnV0dG9uVGV4dCIsImdvb2dsZUF1dGgiLCJTaWduSW4iLCJzdWJzY3JpYmUiLCJuZXh0IiwibmF2aWdhdGUiLCJ0c2xpYl8xIiwiX19kZWNvcmF0ZSIsIkNvbXBvbmVudCIsInNlbGVjdG9yIiwidGVtcGxhdGVVcmwiLCJzdHlsZVVybHMiLCJleHBvcnRzIl0sInNvdXJjZXMiOlsiQzpcXFVzZXJzXFxwbG91dGFyY2hvc21cXERlc2t0b3BcXEdJVFxcazZjNktJeDR3YllJTW5vTm9yVzdcXHNyY1xcYXBwXFxhdXRoXFxjb21wb25lbnRzXFxnb29nbGUtbG9naW5cXGdvb2dsZS1sb2dpbi5jb21wb25lbnQudHMiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgQ29tcG9uZW50IH0gZnJvbSAnQGFuZ3VsYXIvY29yZSc7XG5pbXBvcnQgeyBBdXRoU2VydmljZSB9IGZyb20gJ0BhcHAvYXV0aC9zZXJ2aWNlcy9hdXRoLnNlcnZpY2UnO1xuaW1wb3J0IHsgUm91dGVyIH0gZnJvbSAnQGFuZ3VsYXIvcm91dGVyJztcblxuQENvbXBvbmVudCh7XG4gIHNlbGVjdG9yOiAnYXBwLWdvb2dsZS1sb2dpbicsXG4gIHRlbXBsYXRlVXJsOiAnLi9nb29nbGUtbG9naW4uY29tcG9uZW50Lmh0bWwnLFxuICBzdHlsZVVybHM6IFsnLi9nb29nbGUtbG9naW4uY29tcG9uZW50LnNjc3MnXSxcbn0pXG5leHBvcnQgY2xhc3MgR29vZ2xlTG9naW5Db21wb25lbnQge1xuICBjb25zdHJ1Y3Rvcihwcml2YXRlIGF1dGhTZXJ2aWNlOiBBdXRoU2VydmljZSwgcHJpdmF0ZSByb3V0ZXI6IFJvdXRlcikge31cblxuICBidXR0b25UZXh0ID0gJ1NpZ24gaW4gd2l0aCBHb29nbGUnO1xuXG4gIGdvb2dsZUF1dGgoKSB7XG4gICAgdGhpcy5hdXRoU2VydmljZS5TaWduSW4oKS5zdWJzY3JpYmUoe1xuICAgICAgbmV4dDogKCkgPT4gdGhpcy5yb3V0ZXIubmF2aWdhdGUoWydjaGF0J10pLFxuICAgIH0pO1xuICB9XG59XG4iXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7SUFrQkc7SUFBQUEsY0FBQSxZQUFBQSxDQUFBO01BQUEsT0FBQUMsY0FBQTtJQUFBO0VBQUE7RUFBQSxPQUFBQSxjQUFBO0FBQUE7QUFBQUQsY0FBQTtBQUFBQSxjQUFBLEdBQUFFLENBQUE7Ozs7Ozs7Ozs7QUFsQkgsTUFBQUMsTUFBQTtBQUFBO0FBQUEsQ0FBQUgsY0FBQSxHQUFBRSxDQUFBLE9BQUFFLE9BQUE7QUFBMEM7QUFBQUosY0FBQSxHQUFBRSxDQUFBO0FBUzFDLElBQWFHLG9CQUFvQixHQUFqQyxNQUFhQSxvQkFBb0I7RUFDL0JDLFlBQW9CQyxXQUF3QixFQUFVQyxNQUFjO0lBQUE7SUFBQVIsY0FBQSxHQUFBUyxDQUFBO0lBQUFULGNBQUEsR0FBQUUsQ0FBQTtJQUFoRCxLQUFBSyxXQUFXLEdBQVhBLFdBQVc7SUFBYTtJQUFBUCxjQUFBLEdBQUFFLENBQUE7SUFBVSxLQUFBTSxNQUFNLEdBQU5BLE1BQU07SUFBUTtJQUFBUixjQUFBLEdBQUFFLENBQUE7SUFFcEUsS0FBQVEsVUFBVSxHQUFHLHFCQUFxQjtFQUZxQztFQUl2RUMsVUFBVUEsQ0FBQTtJQUFBO0lBQUFYLGNBQUEsR0FBQVMsQ0FBQTtJQUFBVCxjQUFBLEdBQUFFLENBQUE7SUFDUixJQUFJLENBQUNLLFdBQVcsQ0FBQ0ssTUFBTSxFQUFFLENBQUNDLFNBQVMsQ0FBQztNQUNsQ0MsSUFBSSxFQUFFQSxDQUFBLEtBQU07UUFBQTtRQUFBZCxjQUFBLEdBQUFTLENBQUE7UUFBQVQsY0FBQSxHQUFBRSxDQUFBO1FBQUEsV0FBSSxDQUFDTSxNQUFNLENBQUNPLFFBQVEsQ0FBQyxDQUFDLE1BQU0sQ0FBQyxDQUFDO01BQUQ7S0FDMUMsQ0FBQztFQUNKO0NBQ0Q7QUFBQTtBQUFBZixjQUFBLEdBQUFFLENBQUE7QUFWWUcsb0JBQW9CLEdBQUFXLE9BQUEsQ0FBQUMsVUFBQSxFQUxoQyxJQUFBZCxNQUFBLENBQUFlLFNBQVMsRUFBQztFQUNUQyxRQUFRLEVBQUUsa0JBQWtCO0VBQzVCQyxXQUFXLEVBQUUsK0JBQStCO0VBQzVDQyxTQUFTLEVBQUUsQ0FBQywrQkFBK0I7Q0FDNUMsQ0FBQyxDLEVBQ1doQixvQkFBb0IsQ0FVaEM7QUFBQTtBQUFBTCxjQUFBLEdBQUFFLENBQUE7QUFWWW9CLE9BQUEsQ0FBQWpCLG9CQUFBLEdBQUFBLG9CQUFBIn0=

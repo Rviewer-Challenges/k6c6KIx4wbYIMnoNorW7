@@ -8,6 +8,7 @@ import { AngularFireModule } from '@angular/fire/compat';
 import { AngularFireAuthModule } from '@angular/fire/compat/auth';
 import { AngularFireDatabaseModule } from '@angular/fire/compat/database';
 import { environment } from '@env/environment';
+import { IsAuthGuard } from '@app/auth/guards/is-auth.guard';
 
 @NgModule({
   declarations: [AppComponent],
@@ -18,7 +19,7 @@ import { environment } from '@env/environment';
     AngularFireAuthModule,
     AngularFireDatabaseModule,
   ],
-  providers: [AuthGuard],
+  providers: [AuthGuard, IsAuthGuard],
   bootstrap: [AppComponent],
 })
 export class AppModule {}

@@ -3,6 +3,7 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { ChatRoomComponent } from './chat-room.component';
 import { AuthService } from '@app/auth/services/auth.service';
 import { LocalStorageService } from '@app/services/local-storage.service';
+import { ChatHeaderComponent } from '@app/chat/components/chat-header/chat-header.component';
 
 jest.mock('@app/auth/services/auth.service');
 
@@ -12,7 +13,7 @@ describe('ChatRoomComponent', () => {
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [ChatRoomComponent],
+      declarations: [ChatRoomComponent, ChatHeaderComponent],
       providers: [AuthService, LocalStorageService],
     });
     fixture = TestBed.createComponent(ChatRoomComponent);
