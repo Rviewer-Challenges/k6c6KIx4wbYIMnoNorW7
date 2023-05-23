@@ -1,3 +1,4 @@
+// require('jest-preset-angular/ngcc-jest-processor');
 const { pathsToModuleNameMapper } = require("ts-jest");
 const { compilerOptions } = require("./tsconfig.json");
 
@@ -23,7 +24,7 @@ module.exports = {
   moduleNameMapper: Object.assign(
     pathsToModuleNameMapper(compilerOptions.paths || {}, {
       prefix: '<rootDir>/src',
-    }), {}
+    })
   ),
   transformIgnorePatterns: [`/node_modules/(?!${esModules})`],
   cacheDirectory: '<rootDir>/.cache',

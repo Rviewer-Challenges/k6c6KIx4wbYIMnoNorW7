@@ -1,0 +1,193 @@
+ecc5725360a08edd1d3e4410cadd19ed
+"use strict";
+
+/* istanbul ignore next */
+function cov_19h0chdjbu() {
+  var path = "C:\\Users\\ploutarchosm\\Desktop\\GIT\\k6c6KIx4wbYIMnoNorW7\\src\\app\\auth\\components\\google-login\\google-login.component.ts";
+  var hash = "2a1e06747c3d6a3756b9bda84c9840c47a3c2ed4";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "C:\\Users\\ploutarchosm\\Desktop\\GIT\\k6c6KIx4wbYIMnoNorW7\\src\\app\\auth\\components\\google-login\\google-login.component.ts",
+    statementMap: {
+      "0": {
+        start: {
+          line: 2,
+          column: 0
+        },
+        end: {
+          line: 2,
+          column: 62
+        }
+      },
+      "1": {
+        start: {
+          line: 3,
+          column: 0
+        },
+        end: {
+          line: 3,
+          column: 38
+        }
+      },
+      "2": {
+        start: {
+          line: 4,
+          column: 16
+        },
+        end: {
+          line: 4,
+          column: 32
+        }
+      },
+      "3": {
+        start: {
+          line: 5,
+          column: 15
+        },
+        end: {
+          line: 5,
+          column: 39
+        }
+      },
+      "4": {
+        start: {
+          line: 6,
+          column: 27
+        },
+        end: {
+          line: 10,
+          column: 1
+        }
+      },
+      "5": {
+        start: {
+          line: 8,
+          column: 8
+        },
+        end: {
+          line: 8,
+          column: 39
+        }
+      },
+      "6": {
+        start: {
+          line: 11,
+          column: 0
+        },
+        end: {
+          line: 17,
+          column: 25
+        }
+      },
+      "7": {
+        start: {
+          line: 18,
+          column: 0
+        },
+        end: {
+          line: 18,
+          column: 52
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "(anonymous_0)",
+        decl: {
+          start: {
+            line: 7,
+            column: 4
+          },
+          end: {
+            line: 7,
+            column: 5
+          }
+        },
+        loc: {
+          start: {
+            line: 7,
+            column: 29
+          },
+          end: {
+            line: 9,
+            column: 5
+          }
+        },
+        line: 7
+      }
+    },
+    branchMap: {},
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0
+    },
+    f: {
+      "0": 0
+    },
+    b: {},
+    inputSourceMap: {
+      file: "C:\\Users\\ploutarchosm\\Desktop\\GIT\\k6c6KIx4wbYIMnoNorW7\\src\\app\\auth\\components\\google-login\\google-login.component.ts",
+      mappings: ";;;;AAAA,wCAA0C;AAQ1C,IAAa,oBAAoB,GAAjC,MAAa,oBAAoB;IAC/B,YAAoB,WAAwB;QAAxB,gBAAW,GAAX,WAAW,CAAa;IAAG,CAAC;CACjD,CAAA;AAFY,oBAAoB;IALhC,IAAA,gBAAS,EAAC;QACT,QAAQ,EAAE,kBAAkB;QAC5B,WAAW,EAAE,+BAA+B;QAC5C,SAAS,EAAE,CAAC,+BAA+B,CAAC;KAC7C,CAAC;GACW,oBAAoB,CAEhC;AAFY,oDAAoB",
+      names: [],
+      sources: ["C:\\Users\\ploutarchosm\\Desktop\\GIT\\k6c6KIx4wbYIMnoNorW7\\src\\app\\auth\\components\\google-login\\google-login.component.ts"],
+      sourcesContent: ["import { Component } from '@angular/core';\nimport { AuthService } from '@app/auth/services/auth.service';\n\n@Component({\n  selector: 'app-google-login',\n  templateUrl: './google-login.component.html',\n  styleUrls: ['./google-login.component.scss'],\n})\nexport class GoogleLoginComponent {\n  constructor(private authService: AuthService) {}\n}\n"],
+      version: 3
+    },
+    _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    hash: "2a1e06747c3d6a3756b9bda84c9840c47a3c2ed4"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+  if (!coverage[path] || coverage[path].hash !== hash) {
+    coverage[path] = coverageData;
+  }
+  var actualCoverage = coverage[path];
+  {
+    // @ts-ignore
+    cov_19h0chdjbu = function () {
+      return actualCoverage;
+    };
+  }
+  return actualCoverage;
+}
+cov_19h0chdjbu();
+cov_19h0chdjbu().s[0]++;
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+/* istanbul ignore next */
+cov_19h0chdjbu().s[1]++;
+exports.GoogleLoginComponent = void 0;
+const tslib_1 =
+/* istanbul ignore next */
+(cov_19h0chdjbu().s[2]++, require("tslib"));
+const core_1 =
+/* istanbul ignore next */
+(cov_19h0chdjbu().s[3]++, require("@angular/core"));
+/* istanbul ignore next */
+cov_19h0chdjbu().s[4]++;
+let GoogleLoginComponent = class GoogleLoginComponent {
+  constructor(authService) {
+    /* istanbul ignore next */
+    cov_19h0chdjbu().f[0]++;
+    cov_19h0chdjbu().s[5]++;
+    this.authService = authService;
+  }
+};
+/* istanbul ignore next */
+cov_19h0chdjbu().s[6]++;
+GoogleLoginComponent = tslib_1.__decorate([(0, core_1.Component)({
+  selector: 'app-google-login',
+  templateUrl: './google-login.component.html',
+  styleUrls: ['./google-login.component.scss']
+})], GoogleLoginComponent);
+/* istanbul ignore next */
+cov_19h0chdjbu().s[7]++;
+exports.GoogleLoginComponent = GoogleLoginComponent;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJjb3ZfMTloMGNoZGpidSIsImFjdHVhbENvdmVyYWdlIiwicyIsImNvcmVfMSIsInJlcXVpcmUiLCJHb29nbGVMb2dpbkNvbXBvbmVudCIsImNvbnN0cnVjdG9yIiwiYXV0aFNlcnZpY2UiLCJmIiwidHNsaWJfMSIsIl9fZGVjb3JhdGUiLCJDb21wb25lbnQiLCJzZWxlY3RvciIsInRlbXBsYXRlVXJsIiwic3R5bGVVcmxzIiwiZXhwb3J0cyJdLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xccGxvdXRhcmNob3NtXFxEZXNrdG9wXFxHSVRcXGs2YzZLSXg0d2JZSU1ub05vclc3XFxzcmNcXGFwcFxcYXV0aFxcY29tcG9uZW50c1xcZ29vZ2xlLWxvZ2luXFxnb29nbGUtbG9naW4uY29tcG9uZW50LnRzIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IENvbXBvbmVudCB9IGZyb20gJ0Bhbmd1bGFyL2NvcmUnO1xuaW1wb3J0IHsgQXV0aFNlcnZpY2UgfSBmcm9tICdAYXBwL2F1dGgvc2VydmljZXMvYXV0aC5zZXJ2aWNlJztcblxuQENvbXBvbmVudCh7XG4gIHNlbGVjdG9yOiAnYXBwLWdvb2dsZS1sb2dpbicsXG4gIHRlbXBsYXRlVXJsOiAnLi9nb29nbGUtbG9naW4uY29tcG9uZW50Lmh0bWwnLFxuICBzdHlsZVVybHM6IFsnLi9nb29nbGUtbG9naW4uY29tcG9uZW50LnNjc3MnXSxcbn0pXG5leHBvcnQgY2xhc3MgR29vZ2xlTG9naW5Db21wb25lbnQge1xuICBjb25zdHJ1Y3Rvcihwcml2YXRlIGF1dGhTZXJ2aWNlOiBBdXRoU2VydmljZSkge31cbn1cbiJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0lBT0U7SUFBQUEsY0FBQSxZQUFBQSxDQUFBO01BQUEsT0FBQUMsY0FBQTtJQUFBO0VBQUE7RUFBQSxPQUFBQSxjQUFBO0FBQUE7QUFBQUQsY0FBQTtBQUFBQSxjQUFBLEdBQUFFLENBQUE7Ozs7Ozs7Ozs7QUFQRixNQUFBQyxNQUFBO0FBQUE7QUFBQSxDQUFBSCxjQUFBLEdBQUFFLENBQUEsT0FBQUUsT0FBQTtBQUEwQztBQUFBSixjQUFBLEdBQUFFLENBQUE7QUFRMUMsSUFBYUcsb0JBQW9CLEdBQWpDLE1BQWFBLG9CQUFvQjtFQUMvQkMsWUFBb0JDLFdBQXdCO0lBQUE7SUFBQVAsY0FBQSxHQUFBUSxDQUFBO0lBQUFSLGNBQUEsR0FBQUUsQ0FBQTtJQUF4QixLQUFBSyxXQUFXLEdBQVhBLFdBQVc7RUFBZ0I7Q0FDaEQ7QUFBQTtBQUFBUCxjQUFBLEdBQUFFLENBQUE7QUFGWUcsb0JBQW9CLEdBQUFJLE9BQUEsQ0FBQUMsVUFBQSxFQUxoQyxJQUFBUCxNQUFBLENBQUFRLFNBQVMsRUFBQztFQUNUQyxRQUFRLEVBQUUsa0JBQWtCO0VBQzVCQyxXQUFXLEVBQUUsK0JBQStCO0VBQzVDQyxTQUFTLEVBQUUsQ0FBQywrQkFBK0I7Q0FDNUMsQ0FBQyxDLEVBQ1dULG9CQUFvQixDQUVoQztBQUFBO0FBQUFMLGNBQUEsR0FBQUUsQ0FBQTtBQUZZYSxPQUFBLENBQUFWLG9CQUFBLEdBQUFBLG9CQUFBIn0=

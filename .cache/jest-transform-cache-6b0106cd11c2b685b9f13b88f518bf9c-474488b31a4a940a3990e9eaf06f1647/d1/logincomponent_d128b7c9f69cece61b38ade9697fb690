@@ -1,0 +1,206 @@
+383bbe5c5dd740c771a9f77c929323b7
+"use strict";
+
+/* istanbul ignore next */
+function cov_1s38pl86q7() {
+  var path = "C:\\Users\\ploutarchosm\\Desktop\\GIT\\k6c6KIx4wbYIMnoNorW7\\src\\app\\auth\\components\\login\\login.component.ts";
+  var hash = "81094234f20a0e10b71b4635578884134ce769ce";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "C:\\Users\\ploutarchosm\\Desktop\\GIT\\k6c6KIx4wbYIMnoNorW7\\src\\app\\auth\\components\\login\\login.component.ts",
+    statementMap: {
+      "0": {
+        start: {
+          line: 2,
+          column: 0
+        },
+        end: {
+          line: 2,
+          column: 62
+        }
+      },
+      "1": {
+        start: {
+          line: 3,
+          column: 0
+        },
+        end: {
+          line: 3,
+          column: 32
+        }
+      },
+      "2": {
+        start: {
+          line: 4,
+          column: 16
+        },
+        end: {
+          line: 4,
+          column: 32
+        }
+      },
+      "3": {
+        start: {
+          line: 5,
+          column: 15
+        },
+        end: {
+          line: 5,
+          column: 39
+        }
+      },
+      "4": {
+        start: {
+          line: 6,
+          column: 21
+        },
+        end: {
+          line: 11,
+          column: 1
+        }
+      },
+      "5": {
+        start: {
+          line: 8,
+          column: 8
+        },
+        end: {
+          line: 8,
+          column: 48
+        }
+      },
+      "6": {
+        start: {
+          line: 9,
+          column: 8
+        },
+        end: {
+          line: 9,
+          column: 46
+        }
+      },
+      "7": {
+        start: {
+          line: 12,
+          column: 0
+        },
+        end: {
+          line: 17,
+          column: 19
+        }
+      },
+      "8": {
+        start: {
+          line: 18,
+          column: 0
+        },
+        end: {
+          line: 18,
+          column: 40
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "(anonymous_0)",
+        decl: {
+          start: {
+            line: 7,
+            column: 4
+          },
+          end: {
+            line: 7,
+            column: 5
+          }
+        },
+        loc: {
+          start: {
+            line: 7,
+            column: 18
+          },
+          end: {
+            line: 10,
+            column: 5
+          }
+        },
+        line: 7
+      }
+    },
+    branchMap: {},
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0
+    },
+    f: {
+      "0": 0
+    },
+    b: {},
+    inputSourceMap: {
+      file: "C:\\Users\\ploutarchosm\\Desktop\\GIT\\k6c6KIx4wbYIMnoNorW7\\src\\app\\auth\\components\\login\\login.component.ts",
+      mappings: ";;;;AAAA,wCAA0C;AAO1C,IAAa,cAAc,GAA3B,MAAa,cAAc;IAA3B;QACE,eAAU,GAAG,qBAAqB,CAAC;QACnC,kBAAa,GAAG,gBAAgB,CAAC;IACnC,CAAC;CAAA,CAAA;AAHY,cAAc;IAL1B,IAAA,gBAAS,EAAC;QACT,QAAQ,EAAE,WAAW;QACrB,2CAAqC;KAEtC,CAAC;GACW,cAAc,CAG1B;AAHY,wCAAc",
+      names: [],
+      sources: ["C:\\Users\\ploutarchosm\\Desktop\\GIT\\k6c6KIx4wbYIMnoNorW7\\src\\app\\auth\\components\\login\\login.component.ts"],
+      sourcesContent: ["import { Component } from '@angular/core';\n\n@Component({\n  selector: 'app-login',\n  templateUrl: './login.component.html',\n  styleUrls: ['./login.component.scss'],\n})\nexport class LoginComponent {\n  headerText = 'Firebase Chat Login';\n  providersList = 'Providers list';\n}\n"],
+      version: 3
+    },
+    _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    hash: "81094234f20a0e10b71b4635578884134ce769ce"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+  if (!coverage[path] || coverage[path].hash !== hash) {
+    coverage[path] = coverageData;
+  }
+  var actualCoverage = coverage[path];
+  {
+    // @ts-ignore
+    cov_1s38pl86q7 = function () {
+      return actualCoverage;
+    };
+  }
+  return actualCoverage;
+}
+cov_1s38pl86q7();
+cov_1s38pl86q7().s[0]++;
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+/* istanbul ignore next */
+cov_1s38pl86q7().s[1]++;
+exports.LoginComponent = void 0;
+const tslib_1 =
+/* istanbul ignore next */
+(cov_1s38pl86q7().s[2]++, require("tslib"));
+const core_1 =
+/* istanbul ignore next */
+(cov_1s38pl86q7().s[3]++, require("@angular/core"));
+/* istanbul ignore next */
+cov_1s38pl86q7().s[4]++;
+let LoginComponent = class LoginComponent {
+  constructor() {
+    /* istanbul ignore next */
+    cov_1s38pl86q7().f[0]++;
+    cov_1s38pl86q7().s[5]++;
+    this.headerText = 'Firebase Chat Login';
+    /* istanbul ignore next */
+    cov_1s38pl86q7().s[6]++;
+    this.providersList = 'Providers list';
+  }
+};
+/* istanbul ignore next */
+cov_1s38pl86q7().s[7]++;
+LoginComponent = tslib_1.__decorate([(0, core_1.Component)({
+  selector: 'app-login',
+  template: require("./login.component.html")
+})], LoginComponent);
+/* istanbul ignore next */
+cov_1s38pl86q7().s[8]++;
+exports.LoginComponent = LoginComponent;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJjb3ZfMXMzOHBsODZxNyIsImFjdHVhbENvdmVyYWdlIiwicyIsImNvcmVfMSIsInJlcXVpcmUiLCJMb2dpbkNvbXBvbmVudCIsImNvbnN0cnVjdG9yIiwiZiIsImhlYWRlclRleHQiLCJwcm92aWRlcnNMaXN0IiwidHNsaWJfMSIsIl9fZGVjb3JhdGUiLCJDb21wb25lbnQiLCJzZWxlY3RvciIsInRlbXBsYXRlIiwiZXhwb3J0cyJdLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xccGxvdXRhcmNob3NtXFxEZXNrdG9wXFxHSVRcXGs2YzZLSXg0d2JZSU1ub05vclc3XFxzcmNcXGFwcFxcYXV0aFxcY29tcG9uZW50c1xcbG9naW5cXGxvZ2luLmNvbXBvbmVudC50cyJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBDb21wb25lbnQgfSBmcm9tICdAYW5ndWxhci9jb3JlJztcblxuQENvbXBvbmVudCh7XG4gIHNlbGVjdG9yOiAnYXBwLWxvZ2luJyxcbiAgdGVtcGxhdGVVcmw6ICcuL2xvZ2luLmNvbXBvbmVudC5odG1sJyxcbiAgc3R5bGVVcmxzOiBbJy4vbG9naW4uY29tcG9uZW50LnNjc3MnXSxcbn0pXG5leHBvcnQgY2xhc3MgTG9naW5Db21wb25lbnQge1xuICBoZWFkZXJUZXh0ID0gJ0ZpcmViYXNlIENoYXQgTG9naW4nO1xuICBwcm92aWRlcnNMaXN0ID0gJ1Byb3ZpZGVycyBsaXN0Jztcbn1cbiJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7SUFNRTtJQUFBQSxjQUFBLFlBQUFBLENBQUE7TUFBQSxPQUFBQyxjQUFBO0lBQUE7RUFBQTtFQUFBLE9BQUFBLGNBQUE7QUFBQTtBQUFBRCxjQUFBO0FBQUFBLGNBQUEsR0FBQUUsQ0FBQTs7Ozs7Ozs7OztBQU5GLE1BQUFDLE1BQUE7QUFBQTtBQUFBLENBQUFILGNBQUEsR0FBQUUsQ0FBQSxPQUFBRSxPQUFBO0FBQTBDO0FBQUFKLGNBQUEsR0FBQUUsQ0FBQTtBQU8xQyxJQUFhRyxjQUFjLEdBQTNCLE1BQWFBLGNBQWM7RUFBM0JDLFlBQUE7SUFBQTtJQUFBTixjQUFBLEdBQUFPLENBQUE7SUFBQVAsY0FBQSxHQUFBRSxDQUFBO0lBQ0UsS0FBQU0sVUFBVSxHQUFHLHFCQUFxQjtJQUFDO0lBQUFSLGNBQUEsR0FBQUUsQ0FBQTtJQUNuQyxLQUFBTyxhQUFhLEdBQUcsZ0JBQWdCO0VBQ2xDO0NBQUM7QUFBQTtBQUFBVCxjQUFBLEdBQUFFLENBQUE7QUFIWUcsY0FBYyxHQUFBSyxPQUFBLENBQUFDLFVBQUEsRUFMMUIsSUFBQVIsTUFBQSxDQUFBUyxTQUFTLEVBQUM7RUFDVEMsUUFBUSxFQUFFLFdBQVc7RUFDckJDLFFBQUEsRUFBQVYsT0FBQTtDQUVELENBQUMsQyxFQUNXQyxjQUFjLENBRzFCO0FBQUE7QUFBQUwsY0FBQSxHQUFBRSxDQUFBO0FBSFlhLE9BQUEsQ0FBQVYsY0FBQSxHQUFBQSxjQUFBIn0=

@@ -1,7 +1,23 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { AuthGuard } from '@app/auth/guards/auth.guard';
 
-const routes: Routes = [];
+const routes: Routes = [
+  { path: '', redirectTo: 'chat', pathMatch: 'full' },
+  {
+    path: 'chat',
+    loadChildren: () => import('@app/chat/chat.module').then(m => m.ChatModule),
+    canActivate: [AuthGuard],
+  },
+  {
+    path: 'login',
+    loadChildren: () => import('@app/auth/auth.module').then(m => m.AuthModule),
+  },
+  {
+    path: '**',
+    redirectTo: 'error',
+  },
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

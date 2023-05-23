@@ -5,3 +5,13 @@ body {
   color: hsl(198, 0%, 40%);
   background-color: hsl(198, 0%, 98%);
 }
+
+.card {
+  box-shadow: 0 0.15rem 0 0 hsl(198, 0%, 87%);
+  border-width: 0.05rem;
+  border-color: hsl(198, 0%, 87%);
+  border-radius: 0.15rem;
+    &-header {
+      background: white;
+    }
+}
