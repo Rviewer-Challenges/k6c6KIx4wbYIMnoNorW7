@@ -1,10 +1,18 @@
 <app-chat-header></app-chat-header>
 <div class="page-content">
   <div class="container-fluid">
-    <div class="chat-wrapper d-lg-flex gap-1 mx-n4 mt-n4 p-1">
-      <button type="button" class="btn btn-primary" (click)="signOut()">
-        Sign out
-      </button>
-    </div>
+    
+    <p>users list:</p>
+    <pre> {{ getUsers$ | async | json}}</pre>
+
+    <button type="button" class="btn btn-primary" (click)="signOut()">
+      Sign out
+    </button>
+    <!-- <div class="chat-wrapper d-lg-flex gap-1 mx-n4 mt-n4 p-1">
+
+      <p>users list:</p>
+      <div></div>
+ 
+    </div> -->
   </div>
 </div>

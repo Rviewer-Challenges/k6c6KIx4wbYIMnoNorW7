@@ -1,2 +1,0 @@
-d9be0ed2088bacb0ba13017a0d6cb971
-module.exports="<p>chat-room works!</p>\n<button type=\"button\" class=\"btn btn-primary\" (click)=\"signOut()\">\n  Sign out\n</button>\n"

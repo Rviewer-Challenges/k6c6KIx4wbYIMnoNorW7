@@ -1,2 +1,0 @@
-9eefd3d1ed1afb22c997edab0921287b
-module.exports="<button type=\"button\" class=\"google-login-btn w-100\" (click)=\"googleAuth()\">\n  {{ buttonText }}\n</button>\n"

@@ -1,2 +1,0 @@
-1f311aec3bbf42692b1bde0ba5893b33
-module.exports="<div\n  class=\"d-flex flex-column min-vh-100 justify-content-center align-items-center\">\n  <div class=\"card\">\n    <div class=\"card-header\">{{ headerText }}</div>\n    <div class=\"card-body\">\n      <p>{{ providersList }}</p>\n      <app-google-login></app-google-login>\n    </div>\n  </div>\n</div>\n"

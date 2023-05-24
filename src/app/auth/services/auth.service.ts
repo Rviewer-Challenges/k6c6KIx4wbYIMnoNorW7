@@ -6,6 +6,7 @@ import { from, map, Observable, tap } from 'rxjs';
 import { LocalStorageService } from '@app/services/local-storage.service';
 import { Router } from '@angular/router';
 
+
 export enum Auth {
   User = 'user',
 }
@@ -13,16 +14,23 @@ export enum Auth {
 @Injectable({
   providedIn: 'root',
 })
+
 export class AuthService {
   constructor(
     private ngFirebaseAuth: AngularFireAuth,
     private ngLocalStorage: LocalStorageService,
     private router: Router
-  ) {}
+  ) {
+  }
 
   SignIn() {
     return this.AuthLogin(new auth.GoogleAuthProvider());
   }
+
+  FacebookSignIn() {
+    return this.AuthLogin(new auth.FacebookAuthProvider());
+  }
+
   SignOut(): Observable<void> {
     return from(this.ngFirebaseAuth.signOut()).pipe(
       tap(() => {
