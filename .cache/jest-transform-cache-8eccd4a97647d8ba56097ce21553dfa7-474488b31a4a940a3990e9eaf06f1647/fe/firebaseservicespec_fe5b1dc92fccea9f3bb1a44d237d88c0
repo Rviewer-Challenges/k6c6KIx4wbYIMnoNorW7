@@ -1,0 +1,17 @@
+d2834716e8422471739b96fb31f21a3d
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+jest.mock('firebase/firestore');
+const testing_1 = require("@angular/core/testing");
+const firebase_service_1 = require("./firebase.service");
+describe('FirebaseService', () => {
+    let service;
+    beforeEach(() => {
+        testing_1.TestBed.configureTestingModule({});
+        service = testing_1.TestBed.inject(firebase_service_1.FirebaseService);
+    });
+    it('should be created', () => {
+        expect(service).toBeTruthy();
+    });
+});
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJmaWxlIjoiQzpcXFVzZXJzXFxVc2VyXFxEZXNrdG9wXFxrNmM2S0l4NHdiWUlNbm9Ob3JXN1xcc3JjXFxhcHBcXHNlcnZpY2VzXFxmaXJlYmFzZS5zZXJ2aWNlLnNwZWMudHMiLCJtYXBwaW5ncyI6Ijs7QUFHQSxJQUFJLENBQUMsSUFBSSxDQUFDLG9CQUFvQixDQUFDLENBQUM7QUFIaEMsbURBQWdEO0FBQ2hELHlEQUFxRDtBQUlyRCxRQUFRLENBQUMsaUJBQWlCLEVBQUUsR0FBRyxFQUFFO0lBQy9CLElBQUksT0FBd0IsQ0FBQztJQUU3QixVQUFVLENBQUMsR0FBRyxFQUFFO1FBQ2QsaUJBQU8sQ0FBQyxzQkFBc0IsQ0FBQyxFQUFFLENBQUMsQ0FBQztRQUNuQyxPQUFPLEdBQUcsaUJBQU8sQ0FBQyxNQUFNLENBQUMsa0NBQWUsQ0FBQyxDQUFDO0lBQzVDLENBQUMsQ0FBQyxDQUFDO0lBRUgsRUFBRSxDQUFDLG1CQUFtQixFQUFFLEdBQUcsRUFBRTtRQUMzQixNQUFNLENBQUMsT0FBTyxDQUFDLENBQUMsVUFBVSxFQUFFLENBQUM7SUFDL0IsQ0FBQyxDQUFDLENBQUM7QUFDTCxDQUFDLENBQUMsQ0FBQyIsIm5hbWVzIjpbXSwic291cmNlcyI6WyJDOlxcVXNlcnNcXFVzZXJcXERlc2t0b3BcXGs2YzZLSXg0d2JZSU1ub05vclc3XFxzcmNcXGFwcFxcc2VydmljZXNcXGZpcmViYXNlLnNlcnZpY2Uuc3BlYy50cyJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBUZXN0QmVkIH0gZnJvbSAnQGFuZ3VsYXIvY29yZS90ZXN0aW5nJztcbmltcG9ydCB7IEZpcmViYXNlU2VydmljZSB9IGZyb20gJy4vZmlyZWJhc2Uuc2VydmljZSc7XG5cbmplc3QubW9jaygnZmlyZWJhc2UvZmlyZXN0b3JlJyk7XG5cbmRlc2NyaWJlKCdGaXJlYmFzZVNlcnZpY2UnLCAoKSA9PiB7XG4gIGxldCBzZXJ2aWNlOiBGaXJlYmFzZVNlcnZpY2U7XG5cbiAgYmVmb3JlRWFjaCgoKSA9PiB7XG4gICAgVGVzdEJlZC5jb25maWd1cmVUZXN0aW5nTW9kdWxlKHt9KTtcbiAgICBzZXJ2aWNlID0gVGVzdEJlZC5pbmplY3QoRmlyZWJhc2VTZXJ2aWNlKTtcbiAgfSk7XG5cbiAgaXQoJ3Nob3VsZCBiZSBjcmVhdGVkJywgKCkgPT4ge1xuICAgIGV4cGVjdChzZXJ2aWNlKS50b0JlVHJ1dGh5KCk7XG4gIH0pO1xufSk7XG4iXSwidmVyc2lvbiI6M30=

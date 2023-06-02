@@ -10,22 +10,33 @@ import { FirebaseService } from '@app/services/firebase.service';
   styleUrls: ['./google-login.component.scss'],
 })
 export class GoogleLoginComponent {
-  constructor(private authService: AuthService, private router: Router, private firebaseService: FirebaseService) {}
+  constructor(
+    private authService: AuthService,
+    private router: Router,
+    private firebaseService: FirebaseService
+  ) {}
 
   buttonText = 'Sign in with Google';
 
   googleAuth() {
-    this.authService.SignIn().pipe(
-      switchMap(({ user }) => user ? this.firebaseService.saveUser({
-        uid: user.uid,
-        email: user.email || 'N/A',
-        displayName: user.displayName || 'N/A',
-        photoURL: user.photoURL || 'N/A',
-        emailVerified: user.emailVerified,
-        isLoggedIn: true
-      }) : EMPTY)
-    ).subscribe({
-      next: () => this.router.navigate(['chat']),
-    });
+    this.authService
+      .SignIn()
+      .pipe(
+        switchMap(({ user }) =>
+          user
+            ? this.firebaseService.saveUser({
+                uid: user.uid,
+                email: user.email || 'N/A',
+                displayName: user.displayName || 'N/A',
+                photoURL: user.photoURL || 'N/A',
+                emailVerified: user.emailVerified,
+                isLoggedIn: true,
+              })
+            : EMPTY
+        )
+      )
+      .subscribe({
+        next: () => this.router.navigate(['chat']),
+      });
   }
 }

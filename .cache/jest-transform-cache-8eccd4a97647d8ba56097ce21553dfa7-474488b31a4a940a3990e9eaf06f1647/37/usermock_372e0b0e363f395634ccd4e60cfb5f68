@@ -1,0 +1,13 @@
+85db974388dec091fea1a156a53d4331
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.userMock = void 0;
+exports.userMock = {
+    isLoggedIn: true,
+    uid: 'l9sWl376SkedOhuhZiMlzHUDQ8u1',
+    email: 'info@ploutarchosm.com',
+    displayName: 'Ploutarchos Michaelides',
+    emailVerified: true,
+    photoURL: 'https://lh3.googleusercontent.com/a/AGNmyxa-IiTpPFIVPq0gUKArxVF77vJZ03Gqu6XU3pcW=s96-c',
+};
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJmaWxlIjoiQzpcXFVzZXJzXFxVc2VyXFxEZXNrdG9wXFxrNmM2S0l4NHdiWUlNbm9Ob3JXN1xcc3JjXFxfX3Rlc3RfX1xcdXNlci5tb2NrLnRzIiwibWFwcGluZ3MiOiI7OztBQUFhLFFBQUEsUUFBUSxHQUFHO0lBQ3RCLFVBQVUsRUFBRSxJQUFJO0lBQ2hCLEdBQUcsRUFBRSw4QkFBOEI7SUFDbkMsS0FBSyxFQUFFLHVCQUF1QjtJQUM5QixXQUFXLEVBQUUseUJBQXlCO0lBQ3RDLGFBQWEsRUFBRSxJQUFJO0lBQ25CLFFBQVEsRUFDTix3RkFBd0Y7Q0FDM0YsQ0FBQyIsIm5hbWVzIjpbXSwic291cmNlcyI6WyJDOlxcVXNlcnNcXFVzZXJcXERlc2t0b3BcXGs2YzZLSXg0d2JZSU1ub05vclc3XFxzcmNcXF9fdGVzdF9fXFx1c2VyLm1vY2sudHMiXSwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGNvbnN0IHVzZXJNb2NrID0ge1xuICBpc0xvZ2dlZEluOiB0cnVlLFxuICB1aWQ6ICdsOXNXbDM3NlNrZWRPaHVoWmlNbHpIVURROHUxJyxcbiAgZW1haWw6ICdpbmZvQHBsb3V0YXJjaG9zbS5jb20nLFxuICBkaXNwbGF5TmFtZTogJ1Bsb3V0YXJjaG9zIE1pY2hhZWxpZGVzJyxcbiAgZW1haWxWZXJpZmllZDogdHJ1ZSxcbiAgcGhvdG9VUkw6XG4gICAgJ2h0dHBzOi8vbGgzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9hL0FHTm15eGEtSWlUcFBGSVZQcTBnVUtBcnhWRjc3dkpaMDNHcXU2WFUzcGNXPXM5Ni1jJyxcbn07XG4iXSwidmVyc2lvbiI6M30=

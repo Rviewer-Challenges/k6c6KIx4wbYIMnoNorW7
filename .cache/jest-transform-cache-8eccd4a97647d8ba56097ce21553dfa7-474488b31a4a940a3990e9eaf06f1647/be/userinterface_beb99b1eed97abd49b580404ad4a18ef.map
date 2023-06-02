@@ -1,0 +1,1 @@
+{"version":3,"names":[],"sources":["C:\\Users\\User\\Desktop\\k6c6KIx4wbYIMnoNorW7\\src\\app\\interfaces\\user.interface.ts"],"sourcesContent":["export interface User {\n  uid: string;\n  email: string;\n  displayName: string;\n  photoURL: string;\n  emailVerified: boolean;\n  isLoggedIn: boolean;\n}\n"],"mappings":""}

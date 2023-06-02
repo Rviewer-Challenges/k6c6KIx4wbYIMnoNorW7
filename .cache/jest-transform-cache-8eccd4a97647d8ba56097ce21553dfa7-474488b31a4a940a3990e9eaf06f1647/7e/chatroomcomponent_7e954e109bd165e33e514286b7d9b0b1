@@ -1,0 +1,2 @@
+45893012e24a986e836e9b0dca488137
+module.exports="<app-chat-header></app-chat-header>\n<div class=\"page-content\">\n  <div class=\"container-fluid\">\n    <p>users list:</p>\n    <!--    <pre> {{ getUsers$ | async | json }}</pre>-->\n\n    <button type=\"button\" class=\"btn btn-primary\" (click)=\"signOut()\">\n      Sign out\n    </button>\n    <!-- <div class=\"chat-wrapper d-lg-flex gap-1 mx-n4 mt-n4 p-1\">\n\n      <p>users list:</p>\n      <div></div>\n\n    </div> -->\n  </div>\n</div>\n"

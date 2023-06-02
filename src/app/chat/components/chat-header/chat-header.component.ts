@@ -1,22 +1,27 @@
-import { Component, OnInit } from '@angular/core';
-import { LocalStorageService } from '@app/services/local-storage.service';
-import { Auth } from '@app/auth/services/auth.service';
-import firebase from 'firebase/compat';
+import { Component } from '@angular/core';
+import { User } from '@app/interfaces/user.interface';
+import { FirebaseService } from '@app/services/firebase.service';
+import { map, Observable } from 'rxjs';
 
 @Component({
   selector: 'app-chat-header',
   templateUrl: './chat-header.component.html',
   styleUrls: ['./chat-header.component.scss'],
 })
-export class ChatHeaderComponent implements OnInit {
-  user: firebase.User;
+export class ChatHeaderComponent {
+  user$: Observable<User> = this.firebaseService.getUser().pipe(
+    map(x => {
+      return {
+        uid: x?.uid,
+        photoURL: x?.photoURL,
+        email: x?.email,
+        emailVerified: x?.emailVerified,
+        displayName: x?.displayName,
+        isLoggedIn: true,
+      } as User;
+    })
+  );
 
-  constructor(private localStorage: LocalStorageService) {
-    this.user = JSON.parse(this.localStorage.get(Auth.User)) as firebase.User;
-  }
+  constructor(private firebaseService: FirebaseService) {}
   appTitle = 'Firebase Chat';
-
-  ngOnInit(): void {
-    console.log(this.user);
-  }
 }

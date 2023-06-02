@@ -1,0 +1,38 @@
+5dfd2cb1c0c24979c91b04ada15eac00
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const testing_1 = require("@angular/core/testing");
+const firebase_service_1 = require("./firebase.service");
+const firestore_jest_mock_1 = require("firestore-jest-mock");
+const app_1 = require("firebase/app");
+const environment_1 = require("@env/environment");
+describe('FirebaseService', () => {
+    let service;
+    let app;
+    beforeEach(() => {
+        jest.resetModules();
+        jest.clearAllMocks();
+    });
+    beforeEach(() => {
+        app = (0, app_1.initializeApp)(environment_1.environment.firebase);
+    });
+    beforeEach(() => {
+        testing_1.TestBed.configureTestingModule({});
+        const db = () => new firestore_jest_mock_1.FakeFirestore({
+            users: [
+                {
+                    id: '001',
+                    email: 'john.d@example.com',
+                    displayName: 'John Doe',
+                    emailVerified: true,
+                    isLoggedIn: true
+                }
+            ]
+        });
+        service = testing_1.TestBed.inject(firebase_service_1.FirebaseService);
+    });
+    it('should be created', () => {
+        expect(service).toBeTruthy();
+    });
+});
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJmaWxlIjoiQzpcXFVzZXJzXFxVc2VyXFxEZXNrdG9wXFxrNmM2S0l4NHdiWUlNbm9Ob3JXN1xcc3JjXFxhcHBcXHNlcnZpY2VzXFxmaXJlYmFzZS5zZXJ2aWNlLnNwZWMudHMiLCJtYXBwaW5ncyI6Ijs7QUFBQSxtREFBZ0Q7QUFDaEQseURBQXFEO0FBQ3JELDZEQUFvRDtBQUVwRCxzQ0FBNkM7QUFFN0Msa0RBQTZDO0FBRTdDLFFBQVEsQ0FBQyxpQkFBaUIsRUFBRSxHQUFHLEVBQUU7SUFDL0IsSUFBSSxPQUF3QixDQUFDO0lBQzdCLElBQUksR0FBRyxDQUFDO0lBRVIsVUFBVSxDQUFDLEdBQUcsRUFBRTtRQUNkLElBQUksQ0FBQyxZQUFZLEVBQUUsQ0FBQztRQUNwQixJQUFJLENBQUMsYUFBYSxFQUFFLENBQUM7SUFDdkIsQ0FBQyxDQUFDLENBQUM7SUFFSCxVQUFVLENBQUMsR0FBRyxFQUFFO1FBQ2QsR0FBRyxHQUFHLElBQUEsbUJBQWEsRUFBQyx5QkFBVyxDQUFDLFFBQVEsQ0FBQyxDQUFBO0lBQzNDLENBQUMsQ0FBQyxDQUFDO0lBRUgsVUFBVSxDQUFDLEdBQUcsRUFBRTtRQUNkLGlCQUFPLENBQUMsc0JBQXNCLENBQUMsRUFBRSxDQUFDLENBQUM7UUFFbkMsTUFBTSxFQUFFLEdBQUcsR0FBRyxFQUFFLENBQUMsSUFBSSxtQ0FBYSxDQUFDO1lBQy9CLEtBQUssRUFBRTtnQkFDTDtvQkFDRSxFQUFFLEVBQUUsS0FBSztvQkFDVCxLQUFLLEVBQUUsb0JBQW9CO29CQUMzQixXQUFXLEVBQUUsVUFBVTtvQkFDdkIsYUFBYSxFQUFFLElBQUk7b0JBQ25CLFVBQVUsRUFBRSxJQUFJO2lCQUNqQjthQUNGO1NBQ0osQ0FBQyxDQUFDO1FBQ0gsT0FBTyxHQUFHLGlCQUFPLENBQUMsTUFBTSxDQUFDLGtDQUFlLENBQUMsQ0FBQztJQUM1QyxDQUFDLENBQUMsQ0FBQztJQUVILEVBQUUsQ0FBQyxtQkFBbUIsRUFBRSxHQUFHLEVBQUU7UUFDM0IsTUFBTSxDQUFDLE9BQU8sQ0FBQyxDQUFDLFVBQVUsRUFBRSxDQUFDO0lBQy9CLENBQUMsQ0FBQyxDQUFDO0FBQ0wsQ0FBQyxDQUFDLENBQUMiLCJuYW1lcyI6W10sInNvdXJjZXMiOlsiQzpcXFVzZXJzXFxVc2VyXFxEZXNrdG9wXFxrNmM2S0l4NHdiWUlNbm9Ob3JXN1xcc3JjXFxhcHBcXHNlcnZpY2VzXFxmaXJlYmFzZS5zZXJ2aWNlLnNwZWMudHMiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgVGVzdEJlZCB9IGZyb20gJ0Bhbmd1bGFyL2NvcmUvdGVzdGluZyc7XG5pbXBvcnQgeyBGaXJlYmFzZVNlcnZpY2UgfSBmcm9tICcuL2ZpcmViYXNlLnNlcnZpY2UnO1xuaW1wb3J0IHsgRmFrZUZpcmVzdG9yZSB9IGZyb20gJ2ZpcmVzdG9yZS1qZXN0LW1vY2snO1xuaW1wb3J0IHsgbW9ja0NvbGxlY3Rpb24sIG1vY2tEb2MgfSBmcm9tICdmaXJlc3RvcmUtamVzdC1tb2NrL21vY2tzL2ZpcmVzdG9yZSc7XG5pbXBvcnQgeyBpbml0aWFsaXplQXBwIH0gZnJvbSBcImZpcmViYXNlL2FwcFwiO1xuaW1wb3J0IHtBbmd1bGFyRmlyZU1vZHVsZX0gZnJvbSBcIkBhbmd1bGFyL2ZpcmUvY29tcGF0XCI7XG5pbXBvcnQge2Vudmlyb25tZW50fSBmcm9tIFwiQGVudi9lbnZpcm9ubWVudFwiO1xuXG5kZXNjcmliZSgnRmlyZWJhc2VTZXJ2aWNlJywgKCkgPT4ge1xuICBsZXQgc2VydmljZTogRmlyZWJhc2VTZXJ2aWNlO1xuICBsZXQgYXBwO1xuXG4gIGJlZm9yZUVhY2goKCkgPT4ge1xuICAgIGplc3QucmVzZXRNb2R1bGVzKCk7XG4gICAgamVzdC5jbGVhckFsbE1vY2tzKCk7XG4gIH0pO1xuXG4gIGJlZm9yZUVhY2goKCkgPT4ge1xuICAgIGFwcCA9IGluaXRpYWxpemVBcHAoZW52aXJvbm1lbnQuZmlyZWJhc2UpXG4gIH0pO1xuXG4gIGJlZm9yZUVhY2goKCkgPT4ge1xuICAgIFRlc3RCZWQuY29uZmlndXJlVGVzdGluZ01vZHVsZSh7fSk7XG5cbiAgICBjb25zdCBkYiA9ICgpID0+IG5ldyBGYWtlRmlyZXN0b3JlKHtcbiAgICAgICAgdXNlcnM6IFtcbiAgICAgICAgICB7XG4gICAgICAgICAgICBpZDogJzAwMScsXG4gICAgICAgICAgICBlbWFpbDogJ2pvaG4uZEBleGFtcGxlLmNvbScsXG4gICAgICAgICAgICBkaXNwbGF5TmFtZTogJ0pvaG4gRG9lJyxcbiAgICAgICAgICAgIGVtYWlsVmVyaWZpZWQ6IHRydWUsXG4gICAgICAgICAgICBpc0xvZ2dlZEluOiB0cnVlXG4gICAgICAgICAgfVxuICAgICAgICBdXG4gICAgfSk7XG4gICAgc2VydmljZSA9IFRlc3RCZWQuaW5qZWN0KEZpcmViYXNlU2VydmljZSk7XG4gIH0pO1xuXG4gIGl0KCdzaG91bGQgYmUgY3JlYXRlZCcsICgpID0+IHtcbiAgICBleHBlY3Qoc2VydmljZSkudG9CZVRydXRoeSgpO1xuICB9KTtcbn0pO1xuIl0sInZlcnNpb24iOjN9

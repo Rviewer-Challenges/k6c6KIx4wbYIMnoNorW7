@@ -1,0 +1,29 @@
+5c555e1a13e458de673b9f7bfc9bdbd6
+"use strict";
+// This file can be replaced during build by using the `fileReplacements` array.
+// `ng build` replaces `environment.ts` with `environment.prod.ts`.
+// The list of file replacements can be found in `angular.json`.
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.environment = void 0;
+exports.environment = {
+    production: false,
+    firebase: {
+        apiKey: 'AIzaSyDDtBdX6dTwX6QQeex_oXoTIa3p1l6vY7I',
+        authDomain: 'fir-chat-541af.firebaseapp.com',
+        projectId: 'fir-chat-541af',
+        storageBucket: 'fir-chat-541af.appspot.com',
+        messagingSenderId: '84314719361',
+        appId: '1:84314719361:web:7a27ad3c885fbf04c17980',
+        measurementId: 'G-786TFQQ5JF',
+    },
+    applicationSecret: 'YWKkbjoTEa2r766yMQdhbrAF3fI3O5yv',
+};
+/*
+ * For easier debugging in development mode, you can import the following file
+ * to ignore zone related error stack frames such as `zone.run`, `zoneDelegate.invokeTask`.
+ *
+ * This import should be commented out in production mode because it will have a negative impact
+ * on performance if an error is thrown.
+ */
+// import 'zone.js/plugins/zone-error';  // Included with Angular CLI.
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJmaWxlIjoiQzpcXFVzZXJzXFxVc2VyXFxEZXNrdG9wXFxrNmM2S0l4NHdiWUlNbm9Ob3JXN1xcc3JjXFxlbnZpcm9ubWVudHNcXGVudmlyb25tZW50LnRzIiwibWFwcGluZ3MiOiI7QUFBQSxnRkFBZ0Y7QUFDaEYsbUVBQW1FO0FBQ25FLGdFQUFnRTs7O0FBRW5ELFFBQUEsV0FBVyxHQUFHO0lBQ3pCLFVBQVUsRUFBRSxLQUFLO0lBQ2pCLFFBQVEsRUFBRTtRQUNSLE1BQU0sRUFBRSx5Q0FBeUM7UUFDakQsVUFBVSxFQUFFLGdDQUFnQztRQUM1QyxTQUFTLEVBQUUsZ0JBQWdCO1FBQzNCLGFBQWEsRUFBRSw0QkFBNEI7UUFDM0MsaUJBQWlCLEVBQUUsYUFBYTtRQUNoQyxLQUFLLEVBQUUsMENBQTBDO1FBQ2pELGFBQWEsRUFBRSxjQUFjO0tBQzlCO0lBQ0QsaUJBQWlCLEVBQUUsa0NBQWtDO0NBQ3RELENBQUM7QUFFRjs7Ozs7O0dBTUc7QUFDSCxzRUFBc0UiLCJuYW1lcyI6W10sInNvdXJjZXMiOlsiQzpcXFVzZXJzXFxVc2VyXFxEZXNrdG9wXFxrNmM2S0l4NHdiWUlNbm9Ob3JXN1xcc3JjXFxlbnZpcm9ubWVudHNcXGVudmlyb25tZW50LnRzIl0sInNvdXJjZXNDb250ZW50IjpbIi8vIFRoaXMgZmlsZSBjYW4gYmUgcmVwbGFjZWQgZHVyaW5nIGJ1aWxkIGJ5IHVzaW5nIHRoZSBgZmlsZVJlcGxhY2VtZW50c2AgYXJyYXkuXG4vLyBgbmcgYnVpbGRgIHJlcGxhY2VzIGBlbnZpcm9ubWVudC50c2Agd2l0aCBgZW52aXJvbm1lbnQucHJvZC50c2AuXG4vLyBUaGUgbGlzdCBvZiBmaWxlIHJlcGxhY2VtZW50cyBjYW4gYmUgZm91bmQgaW4gYGFuZ3VsYXIuanNvbmAuXG5cbmV4cG9ydCBjb25zdCBlbnZpcm9ubWVudCA9IHtcbiAgcHJvZHVjdGlvbjogZmFsc2UsXG4gIGZpcmViYXNlOiB7XG4gICAgYXBpS2V5OiAnQUl6YVN5RER0QmRYNmRUd1g2UVFlZXhfb1hvVElhM3AxbDZ2WTdJJyxcbiAgICBhdXRoRG9tYWluOiAnZmlyLWNoYXQtNTQxYWYuZmlyZWJhc2VhcHAuY29tJyxcbiAgICBwcm9qZWN0SWQ6ICdmaXItY2hhdC01NDFhZicsXG4gICAgc3RvcmFnZUJ1Y2tldDogJ2Zpci1jaGF0LTU0MWFmLmFwcHNwb3QuY29tJyxcbiAgICBtZXNzYWdpbmdTZW5kZXJJZDogJzg0MzE0NzE5MzYxJyxcbiAgICBhcHBJZDogJzE6ODQzMTQ3MTkzNjE6d2ViOjdhMjdhZDNjODg1ZmJmMDRjMTc5ODAnLFxuICAgIG1lYXN1cmVtZW50SWQ6ICdHLTc4NlRGUVE1SkYnLFxuICB9LFxuICBhcHBsaWNhdGlvblNlY3JldDogJ1lXS2tiam9URWEycjc2NnlNUWRoYnJBRjNmSTNPNXl2Jyxcbn07XG5cbi8qXG4gKiBGb3IgZWFzaWVyIGRlYnVnZ2luZyBpbiBkZXZlbG9wbWVudCBtb2RlLCB5b3UgY2FuIGltcG9ydCB0aGUgZm9sbG93aW5nIGZpbGVcbiAqIHRvIGlnbm9yZSB6b25lIHJlbGF0ZWQgZXJyb3Igc3RhY2sgZnJhbWVzIHN1Y2ggYXMgYHpvbmUucnVuYCwgYHpvbmVEZWxlZ2F0ZS5pbnZva2VUYXNrYC5cbiAqXG4gKiBUaGlzIGltcG9ydCBzaG91bGQgYmUgY29tbWVudGVkIG91dCBpbiBwcm9kdWN0aW9uIG1vZGUgYmVjYXVzZSBpdCB3aWxsIGhhdmUgYSBuZWdhdGl2ZSBpbXBhY3RcbiAqIG9uIHBlcmZvcm1hbmNlIGlmIGFuIGVycm9yIGlzIHRocm93bi5cbiAqL1xuLy8gaW1wb3J0ICd6b25lLmpzL3BsdWdpbnMvem9uZS1lcnJvcic7ICAvLyBJbmNsdWRlZCB3aXRoIEFuZ3VsYXIgQ0xJLlxuIl0sInZlcnNpb24iOjN9

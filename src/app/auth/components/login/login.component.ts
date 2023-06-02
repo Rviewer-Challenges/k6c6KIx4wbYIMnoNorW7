@@ -7,5 +7,4 @@ import { Component } from '@angular/core';
 })
 export class LoginComponent {
   headerText = 'Firebase Chat Authentication';
-  providersList = 'Sign in';
 }

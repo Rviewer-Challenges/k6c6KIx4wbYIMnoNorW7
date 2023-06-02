@@ -1,0 +1,60 @@
+464bd061b8d0fd96003d17237bdb2395
+"use strict";
+
+/* istanbul ignore next */
+function cov_1uzh13ofa6() {
+  var path = "C:\\Users\\User\\Desktop\\k6c6KIx4wbYIMnoNorW7\\src\\app\\interfaces\\user.interface.ts";
+  var hash = "ee77fdf4d506f84c9b511123123700d71d87c121";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "C:\\Users\\User\\Desktop\\k6c6KIx4wbYIMnoNorW7\\src\\app\\interfaces\\user.interface.ts",
+    statementMap: {
+      "0": {
+        start: {
+          line: 2,
+          column: 0
+        },
+        end: {
+          line: 2,
+          column: 62
+        }
+      }
+    },
+    fnMap: {},
+    branchMap: {},
+    s: {
+      "0": 0
+    },
+    f: {},
+    b: {},
+    inputSourceMap: {
+      file: "C:\\Users\\User\\Desktop\\k6c6KIx4wbYIMnoNorW7\\src\\app\\interfaces\\user.interface.ts",
+      mappings: "",
+      names: [],
+      sources: ["C:\\Users\\User\\Desktop\\k6c6KIx4wbYIMnoNorW7\\src\\app\\interfaces\\user.interface.ts"],
+      sourcesContent: ["export interface User {\n  uid: string;\n  email: string;\n  displayName: string;\n  photoURL: string;\n  emailVerified: boolean;\n  isLoggedIn: boolean;\n}\n"],
+      version: 3
+    },
+    _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    hash: "ee77fdf4d506f84c9b511123123700d71d87c121"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+  if (!coverage[path] || coverage[path].hash !== hash) {
+    coverage[path] = coverageData;
+  }
+  var actualCoverage = coverage[path];
+  {
+    // @ts-ignore
+    cov_1uzh13ofa6 = function () {
+      return actualCoverage;
+    };
+  }
+  return actualCoverage;
+}
+cov_1uzh13ofa6();
+cov_1uzh13ofa6().s[0]++;
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6W10sInNvdXJjZXMiOlsiQzpcXFVzZXJzXFxVc2VyXFxEZXNrdG9wXFxrNmM2S0l4NHdiWUlNbm9Ob3JXN1xcc3JjXFxhcHBcXGludGVyZmFjZXNcXHVzZXIuaW50ZXJmYWNlLnRzIl0sInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCBpbnRlcmZhY2UgVXNlciB7XG4gIHVpZDogc3RyaW5nO1xuICBlbWFpbDogc3RyaW5nO1xuICBkaXNwbGF5TmFtZTogc3RyaW5nO1xuICBwaG90b1VSTDogc3RyaW5nO1xuICBlbWFpbFZlcmlmaWVkOiBib29sZWFuO1xuICBpc0xvZ2dlZEluOiBib29sZWFuO1xufVxuIl0sIm1hcHBpbmdzIjoiIn0=

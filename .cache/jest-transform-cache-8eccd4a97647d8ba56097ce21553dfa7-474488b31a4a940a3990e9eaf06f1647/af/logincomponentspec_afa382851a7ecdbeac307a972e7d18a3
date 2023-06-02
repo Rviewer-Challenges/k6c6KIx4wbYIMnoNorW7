@@ -1,0 +1,28 @@
+87f8f5f4e633d974e5acb616f932fab8
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+jest.mock('@app/auth/services/auth.service');
+const testing_1 = require("@angular/core/testing");
+const login_component_1 = require("@app/auth/components/login/login.component");
+const google_login_component_1 = require("@app/auth/components/google-login/google-login.component");
+const auth_service_1 = require("@app/auth/services/auth.service");
+const app_1 = require("firebase/app");
+const environment_1 = require("@env/environment");
+(0, app_1.initializeApp)(environment_1.environment.firebase);
+describe('LoginComponent', () => {
+    let component;
+    let fixture;
+    beforeEach(() => {
+        testing_1.TestBed.configureTestingModule({
+            declarations: [login_component_1.LoginComponent, google_login_component_1.GoogleLoginComponent],
+            providers: [auth_service_1.AuthService],
+        });
+        fixture = testing_1.TestBed.createComponent(login_component_1.LoginComponent);
+        component = fixture.componentInstance;
+        fixture.detectChanges();
+    });
+    it('should create', () => {
+        expect(component).toBeTruthy();
+    });
+});
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJmaWxlIjoiQzpcXFVzZXJzXFxVc2VyXFxEZXNrdG9wXFxrNmM2S0l4NHdiWUlNbm9Ob3JXN1xcc3JjXFxhcHBcXGF1dGhcXGNvbXBvbmVudHNcXGxvZ2luXFxsb2dpbi5jb21wb25lbnQuc3BlYy50cyIsIm1hcHBpbmdzIjoiOztBQU9BLElBQUksQ0FBQyxJQUFJLENBQUMsaUNBQWlDLENBQUMsQ0FBQztBQVA3QyxtREFBa0U7QUFDbEUsZ0ZBQTRFO0FBQzVFLHFHQUFnRztBQUNoRyxrRUFBOEQ7QUFDOUQsc0NBQTZDO0FBQzdDLGtEQUErQztBQUkvQyxJQUFBLG1CQUFhLEVBQUMseUJBQVcsQ0FBQyxRQUFRLENBQUMsQ0FBQztBQUVwQyxRQUFRLENBQUMsZ0JBQWdCLEVBQUUsR0FBRyxFQUFFO0lBQzlCLElBQUksU0FBeUIsQ0FBQztJQUM5QixJQUFJLE9BQXlDLENBQUM7SUFFOUMsVUFBVSxDQUFDLEdBQUcsRUFBRTtRQUNkLGlCQUFPLENBQUMsc0JBQXNCLENBQUM7WUFDN0IsWUFBWSxFQUFFLENBQUMsZ0NBQWMsRUFBRSw2Q0FBb0IsQ0FBQztZQUNwRCxTQUFTLEVBQUUsQ0FBQywwQkFBVyxDQUFDO1NBQ3pCLENBQUMsQ0FBQztRQUNILE9BQU8sR0FBRyxpQkFBTyxDQUFDLGVBQWUsQ0FBQyxnQ0FBYyxDQUFDLENBQUM7UUFDbEQsU0FBUyxHQUFHLE9BQU8sQ0FBQyxpQkFBaUIsQ0FBQztRQUN0QyxPQUFPLENBQUMsYUFBYSxFQUFFLENBQUM7SUFDMUIsQ0FBQyxDQUFDLENBQUM7SUFFSCxFQUFFLENBQUMsZUFBZSxFQUFFLEdBQUcsRUFBRTtRQUN2QixNQUFNLENBQUMsU0FBUyxDQUFDLENBQUMsVUFBVSxFQUFFLENBQUM7SUFDakMsQ0FBQyxDQUFDLENBQUM7QUFDTCxDQUFDLENBQUMsQ0FBQyIsIm5hbWVzIjpbXSwic291cmNlcyI6WyJDOlxcVXNlcnNcXFVzZXJcXERlc2t0b3BcXGs2YzZLSXg0d2JZSU1ub05vclc3XFxzcmNcXGFwcFxcYXV0aFxcY29tcG9uZW50c1xcbG9naW5cXGxvZ2luLmNvbXBvbmVudC5zcGVjLnRzIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IENvbXBvbmVudEZpeHR1cmUsIFRlc3RCZWQgfSBmcm9tICdAYW5ndWxhci9jb3JlL3Rlc3RpbmcnO1xuaW1wb3J0IHsgTG9naW5Db21wb25lbnQgfSBmcm9tICdAYXBwL2F1dGgvY29tcG9uZW50cy9sb2dpbi9sb2dpbi5jb21wb25lbnQnO1xuaW1wb3J0IHsgR29vZ2xlTG9naW5Db21wb25lbnQgfSBmcm9tICdAYXBwL2F1dGgvY29tcG9uZW50cy9nb29nbGUtbG9naW4vZ29vZ2xlLWxvZ2luLmNvbXBvbmVudCc7XG5pbXBvcnQgeyBBdXRoU2VydmljZSB9IGZyb20gJ0BhcHAvYXV0aC9zZXJ2aWNlcy9hdXRoLnNlcnZpY2UnO1xuaW1wb3J0IHsgaW5pdGlhbGl6ZUFwcCB9IGZyb20gJ2ZpcmViYXNlL2FwcCc7XG5pbXBvcnQgeyBlbnZpcm9ubWVudCB9IGZyb20gJ0BlbnYvZW52aXJvbm1lbnQnO1xuXG5qZXN0Lm1vY2soJ0BhcHAvYXV0aC9zZXJ2aWNlcy9hdXRoLnNlcnZpY2UnKTtcblxuaW5pdGlhbGl6ZUFwcChlbnZpcm9ubWVudC5maXJlYmFzZSk7XG5cbmRlc2NyaWJlKCdMb2dpbkNvbXBvbmVudCcsICgpID0+IHtcbiAgbGV0IGNvbXBvbmVudDogTG9naW5Db21wb25lbnQ7XG4gIGxldCBmaXh0dXJlOiBDb21wb25lbnRGaXh0dXJlPExvZ2luQ29tcG9uZW50PjtcblxuICBiZWZvcmVFYWNoKCgpID0+IHtcbiAgICBUZXN0QmVkLmNvbmZpZ3VyZVRlc3RpbmdNb2R1bGUoe1xuICAgICAgZGVjbGFyYXRpb25zOiBbTG9naW5Db21wb25lbnQsIEdvb2dsZUxvZ2luQ29tcG9uZW50XSxcbiAgICAgIHByb3ZpZGVyczogW0F1dGhTZXJ2aWNlXSxcbiAgICB9KTtcbiAgICBmaXh0dXJlID0gVGVzdEJlZC5jcmVhdGVDb21wb25lbnQoTG9naW5Db21wb25lbnQpO1xuICAgIGNvbXBvbmVudCA9IGZpeHR1cmUuY29tcG9uZW50SW5zdGFuY2U7XG4gICAgZml4dHVyZS5kZXRlY3RDaGFuZ2VzKCk7XG4gIH0pO1xuXG4gIGl0KCdzaG91bGQgY3JlYXRlJywgKCkgPT4ge1xuICAgIGV4cGVjdChjb21wb25lbnQpLnRvQmVUcnV0aHkoKTtcbiAgfSk7XG59KTtcbiJdLCJ2ZXJzaW9uIjozfQ==

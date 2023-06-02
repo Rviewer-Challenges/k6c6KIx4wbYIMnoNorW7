@@ -1,0 +1,435 @@
+0a3b7d9178e634aa1189e679915d215f
+"use strict";
+
+/* istanbul ignore next */
+function cov_ydxgamtev() {
+  var path = "C:\\Users\\User\\Desktop\\k6c6KIx4wbYIMnoNorW7\\src\\app\\chat\\components\\chat-room\\chat-room.component.ts";
+  var hash = "e42a31f6eb8bd09bb5109e43c310e19573a9b02f";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "C:\\Users\\User\\Desktop\\k6c6KIx4wbYIMnoNorW7\\src\\app\\chat\\components\\chat-room\\chat-room.component.ts",
+    statementMap: {
+      "0": {
+        start: {
+          line: 2,
+          column: 0
+        },
+        end: {
+          line: 2,
+          column: 62
+        }
+      },
+      "1": {
+        start: {
+          line: 3,
+          column: 0
+        },
+        end: {
+          line: 3,
+          column: 35
+        }
+      },
+      "2": {
+        start: {
+          line: 4,
+          column: 16
+        },
+        end: {
+          line: 4,
+          column: 32
+        }
+      },
+      "3": {
+        start: {
+          line: 5,
+          column: 15
+        },
+        end: {
+          line: 5,
+          column: 39
+        }
+      },
+      "4": {
+        start: {
+          line: 6,
+          column: 23
+        },
+        end: {
+          line: 6,
+          column: 65
+        }
+      },
+      "5": {
+        start: {
+          line: 7,
+          column: 27
+        },
+        end: {
+          line: 7,
+          column: 68
+        }
+      },
+      "6": {
+        start: {
+          line: 8,
+          column: 24
+        },
+        end: {
+          line: 27,
+          column: 1
+        }
+      },
+      "7": {
+        start: {
+          line: 10,
+          column: 8
+        },
+        end: {
+          line: 10,
+          column: 39
+        }
+      },
+      "8": {
+        start: {
+          line: 11,
+          column: 8
+        },
+        end: {
+          line: 11,
+          column: 47
+        }
+      },
+      "9": {
+        start: {
+          line: 12,
+          column: 8
+        },
+        end: {
+          line: 12,
+          column: 53
+        }
+      },
+      "10": {
+        start: {
+          line: 15,
+          column: 8
+        },
+        end: {
+          line: 15,
+          column: 54
+        }
+      },
+      "11": {
+        start: {
+          line: 18,
+          column: 8
+        },
+        end: {
+          line: 18,
+          column: 47
+        }
+      },
+      "12": {
+        start: {
+          line: 21,
+          column: 8
+        },
+        end: {
+          line: 21,
+          column: 25
+        }
+      },
+      "13": {
+        start: {
+          line: 23,
+          column: 13
+        },
+        end: {
+          line: 26,
+          column: 6
+        }
+      },
+      "14": {
+        start: {
+          line: 23,
+          column: 41
+        },
+        end: {
+          line: 26,
+          column: 5
+        }
+      },
+      "15": {
+        start: {
+          line: 28,
+          column: 0
+        },
+        end: {
+          line: 33,
+          column: 22
+        }
+      },
+      "16": {
+        start: {
+          line: 34,
+          column: 0
+        },
+        end: {
+          line: 34,
+          column: 46
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "(anonymous_0)",
+        decl: {
+          start: {
+            line: 9,
+            column: 4
+          },
+          end: {
+            line: 9,
+            column: 5
+          }
+        },
+        loc: {
+          start: {
+            line: 9,
+            column: 46
+          },
+          end: {
+            line: 13,
+            column: 5
+          }
+        },
+        line: 9
+      },
+      "1": {
+        name: "(anonymous_1)",
+        decl: {
+          start: {
+            line: 14,
+            column: 4
+          },
+          end: {
+            line: 14,
+            column: 5
+          }
+        },
+        loc: {
+          start: {
+            line: 14,
+            column: 15
+          },
+          end: {
+            line: 16,
+            column: 5
+          }
+        },
+        line: 14
+      },
+      "2": {
+        name: "(anonymous_2)",
+        decl: {
+          start: {
+            line: 17,
+            column: 4
+          },
+          end: {
+            line: 17,
+            column: 5
+          }
+        },
+        loc: {
+          start: {
+            line: 17,
+            column: 14
+          },
+          end: {
+            line: 19,
+            column: 5
+          }
+        },
+        line: 17
+      },
+      "3": {
+        name: "(anonymous_3)",
+        decl: {
+          start: {
+            line: 20,
+            column: 4
+          },
+          end: {
+            line: 20,
+            column: 5
+          }
+        },
+        loc: {
+          start: {
+            line: 20,
+            column: 14
+          },
+          end: {
+            line: 22,
+            column: 5
+          }
+        },
+        line: 20
+      },
+      "4": {
+        name: "(anonymous_4)",
+        decl: {
+          start: {
+            line: 23,
+            column: 35
+          },
+          end: {
+            line: 23,
+            column: 36
+          }
+        },
+        loc: {
+          start: {
+            line: 23,
+            column: 41
+          },
+          end: {
+            line: 26,
+            column: 5
+          }
+        },
+        line: 23
+      }
+    },
+    branchMap: {},
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0,
+      "13": 0,
+      "14": 0,
+      "15": 0,
+      "16": 0
+    },
+    f: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0
+    },
+    b: {},
+    inputSourceMap: {
+      file: "C:\\Users\\User\\Desktop\\k6c6KIx4wbYIMnoNorW7\\src\\app\\chat\\components\\chat-room\\chat-room.component.ts",
+      mappings: ";;;;AAAA,wCAAkD;AAClD,kEAA8D;AAE9D,qEAAiE;AASjE,IAAa,iBAAiB,GAA9B,MAAa,iBAAiB;IAG5B,YACU,WAAwB,EACxB,eAAgC;QADhC,gBAAW,GAAX,WAAW,CAAa;QACxB,oBAAe,GAAf,eAAe,CAAiB;QAJ1C,cAAS,GAAG,IAAI,CAAC,eAAe,CAAC,MAAM,CAAC;IAKrC,CAAC;IAEJ,QAAQ;QACN,IAAI,CAAC,eAAe,CAAC,sBAAsB,EAAE,CAAC;IAChD,CAAC;IAED,OAAO;QACL,IAAI,CAAC,WAAW,CAAC,OAAO,EAAE,CAAC,SAAS,EAAE,CAAC;IACzC,CAAC;IAED,OAAO;QACL,IAAI,CAAC,WAAW,CAAC;IACnB,CAAC;;;;;;AAlBU,iBAAiB;IAL7B,IAAA,gBAAS,EAAC;QACT,QAAQ,EAAE,eAAe;QACzB,+CAAyC;KAE1C,CAAC;GACW,iBAAiB,CAmB7B;AAnBY,8CAAiB",
+      names: [],
+      sources: ["C:\\Users\\User\\Desktop\\k6c6KIx4wbYIMnoNorW7\\src\\app\\chat\\components\\chat-room\\chat-room.component.ts"],
+      sourcesContent: ["import { Component, OnInit } from '@angular/core';\nimport { AuthService } from '@app/auth/services/auth.service';\nimport { Collection } from '@app/interfaces/collection.enum';\nimport { FirebaseService } from '@app/services/firebase.service';\nimport { LocalStorageService } from '@app/services/local-storage.service';\nimport { collection, doc, onSnapshot } from '@firebase/firestore';\n\n@Component({\n  selector: 'app-chat-room',\n  templateUrl: './chat-room.component.html',\n  styleUrls: ['./chat-room.component.scss'],\n})\nexport class ChatRoomComponent implements OnInit {\n  getUsers$ = this.firebaseService.users$;\n\n  constructor(\n    private authService: AuthService,\n    private firebaseService: FirebaseService\n  ) {}\n\n  ngOnInit(): void {\n    this.firebaseService.onChangeUserCollection();\n  }\n\n  signOut() {\n    this.authService.SignOut().subscribe();\n  }\n\n  getUser() {\n    this.authService;\n  }\n}\n"],
+      version: 3
+    },
+    _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    hash: "e42a31f6eb8bd09bb5109e43c310e19573a9b02f"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+  if (!coverage[path] || coverage[path].hash !== hash) {
+    coverage[path] = coverageData;
+  }
+  var actualCoverage = coverage[path];
+  {
+    // @ts-ignore
+    cov_ydxgamtev = function () {
+      return actualCoverage;
+    };
+  }
+  return actualCoverage;
+}
+cov_ydxgamtev();
+cov_ydxgamtev().s[0]++;
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+/* istanbul ignore next */
+cov_ydxgamtev().s[1]++;
+exports.ChatRoomComponent = void 0;
+const tslib_1 =
+/* istanbul ignore next */
+(cov_ydxgamtev().s[2]++, require("tslib"));
+const core_1 =
+/* istanbul ignore next */
+(cov_ydxgamtev().s[3]++, require("@angular/core"));
+const auth_service_1 =
+/* istanbul ignore next */
+(cov_ydxgamtev().s[4]++, require("@app/auth/services/auth.service"));
+const firebase_service_1 =
+/* istanbul ignore next */
+(cov_ydxgamtev().s[5]++, require("@app/services/firebase.service"));
+/* istanbul ignore next */
+cov_ydxgamtev().s[6]++;
+let ChatRoomComponent = class ChatRoomComponent {
+  constructor(authService, firebaseService) {
+    /* istanbul ignore next */
+    cov_ydxgamtev().f[0]++;
+    cov_ydxgamtev().s[7]++;
+    this.authService = authService;
+    /* istanbul ignore next */
+    cov_ydxgamtev().s[8]++;
+    this.firebaseService = firebaseService;
+    /* istanbul ignore next */
+    cov_ydxgamtev().s[9]++;
+    this.getUsers$ = this.firebaseService.users$;
+  }
+  ngOnInit() {
+    /* istanbul ignore next */
+    cov_ydxgamtev().f[1]++;
+    cov_ydxgamtev().s[10]++;
+    this.firebaseService.onChangeUserCollection();
+  }
+  signOut() {
+    /* istanbul ignore next */
+    cov_ydxgamtev().f[2]++;
+    cov_ydxgamtev().s[11]++;
+    this.authService.SignOut().subscribe();
+  }
+  getUser() {
+    /* istanbul ignore next */
+    cov_ydxgamtev().f[3]++;
+    cov_ydxgamtev().s[12]++;
+    this.authService;
+  }
+  static {
+    /* istanbul ignore next */
+    cov_ydxgamtev().s[13]++;
+    this.ctorParameters = () => {
+      /* istanbul ignore next */
+      cov_ydxgamtev().f[4]++;
+      cov_ydxgamtev().s[14]++;
+      return [{
+        type: auth_service_1.AuthService
+      }, {
+        type: firebase_service_1.FirebaseService
+      }];
+    };
+  }
+};
+/* istanbul ignore next */
+cov_ydxgamtev().s[15]++;
+ChatRoomComponent = tslib_1.__decorate([(0, core_1.Component)({
+  selector: 'app-chat-room',
+  template: require("./chat-room.component.html")
+})], ChatRoomComponent);
+/* istanbul ignore next */
+cov_ydxgamtev().s[16]++;
+exports.ChatRoomComponent = ChatRoomComponent;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJjb3ZfeWR4Z2FtdGV2IiwiYWN0dWFsQ292ZXJhZ2UiLCJzIiwiY29yZV8xIiwicmVxdWlyZSIsImF1dGhfc2VydmljZV8xIiwiZmlyZWJhc2Vfc2VydmljZV8xIiwiQ2hhdFJvb21Db21wb25lbnQiLCJjb25zdHJ1Y3RvciIsImF1dGhTZXJ2aWNlIiwiZmlyZWJhc2VTZXJ2aWNlIiwiZiIsImdldFVzZXJzJCIsInVzZXJzJCIsIm5nT25Jbml0Iiwib25DaGFuZ2VVc2VyQ29sbGVjdGlvbiIsInNpZ25PdXQiLCJTaWduT3V0Iiwic3Vic2NyaWJlIiwiZ2V0VXNlciIsInRzbGliXzEiLCJfX2RlY29yYXRlIiwiQ29tcG9uZW50Iiwic2VsZWN0b3IiLCJ0ZW1wbGF0ZSIsImV4cG9ydHMiXSwic291cmNlcyI6WyJDOlxcVXNlcnNcXFVzZXJcXERlc2t0b3BcXGs2YzZLSXg0d2JZSU1ub05vclc3XFxzcmNcXGFwcFxcY2hhdFxcY29tcG9uZW50c1xcY2hhdC1yb29tXFxjaGF0LXJvb20uY29tcG9uZW50LnRzIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IENvbXBvbmVudCwgT25Jbml0IH0gZnJvbSAnQGFuZ3VsYXIvY29yZSc7XG5pbXBvcnQgeyBBdXRoU2VydmljZSB9IGZyb20gJ0BhcHAvYXV0aC9zZXJ2aWNlcy9hdXRoLnNlcnZpY2UnO1xuaW1wb3J0IHsgQ29sbGVjdGlvbiB9IGZyb20gJ0BhcHAvaW50ZXJmYWNlcy9jb2xsZWN0aW9uLmVudW0nO1xuaW1wb3J0IHsgRmlyZWJhc2VTZXJ2aWNlIH0gZnJvbSAnQGFwcC9zZXJ2aWNlcy9maXJlYmFzZS5zZXJ2aWNlJztcbmltcG9ydCB7IExvY2FsU3RvcmFnZVNlcnZpY2UgfSBmcm9tICdAYXBwL3NlcnZpY2VzL2xvY2FsLXN0b3JhZ2Uuc2VydmljZSc7XG5pbXBvcnQgeyBjb2xsZWN0aW9uLCBkb2MsIG9uU25hcHNob3QgfSBmcm9tICdAZmlyZWJhc2UvZmlyZXN0b3JlJztcblxuQENvbXBvbmVudCh7XG4gIHNlbGVjdG9yOiAnYXBwLWNoYXQtcm9vbScsXG4gIHRlbXBsYXRlVXJsOiAnLi9jaGF0LXJvb20uY29tcG9uZW50Lmh0bWwnLFxuICBzdHlsZVVybHM6IFsnLi9jaGF0LXJvb20uY29tcG9uZW50LnNjc3MnXSxcbn0pXG5leHBvcnQgY2xhc3MgQ2hhdFJvb21Db21wb25lbnQgaW1wbGVtZW50cyBPbkluaXQge1xuICBnZXRVc2VycyQgPSB0aGlzLmZpcmViYXNlU2VydmljZS51c2VycyQ7XG5cbiAgY29uc3RydWN0b3IoXG4gICAgcHJpdmF0ZSBhdXRoU2VydmljZTogQXV0aFNlcnZpY2UsXG4gICAgcHJpdmF0ZSBmaXJlYmFzZVNlcnZpY2U6IEZpcmViYXNlU2VydmljZVxuICApIHt9XG5cbiAgbmdPbkluaXQoKTogdm9pZCB7XG4gICAgdGhpcy5maXJlYmFzZVNlcnZpY2Uub25DaGFuZ2VVc2VyQ29sbGVjdGlvbigpO1xuICB9XG5cbiAgc2lnbk91dCgpIHtcbiAgICB0aGlzLmF1dGhTZXJ2aWNlLlNpZ25PdXQoKS5zdWJzY3JpYmUoKTtcbiAgfVxuXG4gIGdldFVzZXIoKSB7XG4gICAgdGhpcy5hdXRoU2VydmljZTtcbiAgfVxufVxuIl0sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0lBc0JHO0lBQUFBLGFBQUEsWUFBQUEsQ0FBQTtNQUFBLE9BQUFDLGNBQUE7SUFBQTtFQUFBO0VBQUEsT0FBQUEsY0FBQTtBQUFBO0FBQUFELGFBQUE7QUFBQUEsYUFBQSxHQUFBRSxDQUFBOzs7Ozs7Ozs7O0FBdEJILE1BQUFDLE1BQUE7QUFBQTtBQUFBLENBQUFILGFBQUEsR0FBQUUsQ0FBQSxPQUFBRSxPQUFBO0FBQ0EsTUFBQUMsY0FBQTtBQUFBO0FBQUEsQ0FBQUwsYUFBQSxHQUFBRSxDQUFBLE9BQUFFLE9BQUE7QUFFQSxNQUFBRSxrQkFBQTtBQUFBO0FBQUEsQ0FBQU4sYUFBQSxHQUFBRSxDQUFBLE9BQUFFLE9BQUE7QUFBaUU7QUFBQUosYUFBQSxHQUFBRSxDQUFBO0FBU2pFLElBQWFLLGlCQUFpQixHQUE5QixNQUFhQSxpQkFBaUI7RUFHNUJDLFlBQ1VDLFdBQXdCLEVBQ3hCQyxlQUFnQztJQUFBO0lBQUFWLGFBQUEsR0FBQVcsQ0FBQTtJQUFBWCxhQUFBLEdBQUFFLENBQUE7SUFEaEMsS0FBQU8sV0FBVyxHQUFYQSxXQUFXO0lBQWE7SUFBQVQsYUFBQSxHQUFBRSxDQUFBO0lBQ3hCLEtBQUFRLGVBQWUsR0FBZkEsZUFBZTtJQUFpQjtJQUFBVixhQUFBLEdBQUFFLENBQUE7SUFKMUMsS0FBQVUsU0FBUyxHQUFHLElBQUksQ0FBQ0YsZUFBZSxDQUFDRyxNQUFNO0VBS3BDO0VBRUhDLFFBQVFBLENBQUE7SUFBQTtJQUFBZCxhQUFBLEdBQUFXLENBQUE7SUFBQVgsYUFBQSxHQUFBRSxDQUFBO0lBQ04sSUFBSSxDQUFDUSxlQUFlLENBQUNLLHNCQUFzQixFQUFFO0VBQy9DO0VBRUFDLE9BQU9BLENBQUE7SUFBQTtJQUFBaEIsYUFBQSxHQUFBVyxDQUFBO0lBQUFYLGFBQUEsR0FBQUUsQ0FBQTtJQUNMLElBQUksQ0FBQ08sV0FBVyxDQUFDUSxPQUFPLEVBQUUsQ0FBQ0MsU0FBUyxFQUFFO0VBQ3hDO0VBRUFDLE9BQU9BLENBQUE7SUFBQTtJQUFBbkIsYUFBQSxHQUFBVyxDQUFBO0lBQUFYLGFBQUEsR0FBQUUsQ0FBQTtJQUNMLElBQUksQ0FBQ08sV0FBVztFQUNsQjs7Ozs7Ozs7Ozs7Ozs7Ozs7O0FBbEJXRixpQkFBaUIsR0FBQWEsT0FBQSxDQUFBQyxVQUFBLEVBTDdCLElBQUFsQixNQUFBLENBQUFtQixTQUFTLEVBQUM7RUFDVEMsUUFBUSxFQUFFLGVBQWU7RUFDekJDLFFBQUEsRUFBQXBCLE9BQUE7Q0FFRCxDQUFDLEMsRUFDV0csaUJBQWlCLENBbUI3QjtBQUFBO0FBQUFQLGFBQUEsR0FBQUUsQ0FBQTtBQW5CWXVCLE9BQUEsQ0FBQWxCLGlCQUFBLEdBQUFBLGlCQUFBIn0=
