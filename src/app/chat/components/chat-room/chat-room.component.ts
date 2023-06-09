@@ -1,6 +1,15 @@
-import { Component, OnInit } from '@angular/core';
-import { AuthService } from '@app/auth/services/auth.service';
-import { FirebaseService } from '@app/services/firebase.service';
+import { Component, OnInit, Optional } from '@angular/core';
+import { Observable } from 'rxjs';
+import { Auth } from '@angular/fire/auth';
+import { Router } from '@angular/router';
+
+import {
+  Firestore,
+  collectionData,
+  collection,
+  DocumentData,
+} from '@angular/fire/firestore';
+import { Collections } from '@app/interfaces/user.interface';
 
 @Component({
   selector: 'app-chat-room',
@@ -8,18 +17,20 @@ import { FirebaseService } from '@app/services/firebase.service';
   styleUrls: ['./chat-room.component.scss'],
 })
 export class ChatRoomComponent implements OnInit {
-  getUsers$ = this.firebaseService.users$;
+  public users$: Observable<DocumentData[]>;
 
   constructor(
-    private authService: AuthService,
-    private firebaseService: FirebaseService
+    @Optional() private firestore: Firestore,
+    @Optional() private auth: Auth,
+    private router: Router
   ) {}
-
   ngOnInit(): void {
-    this.firebaseService.onChangeUserCollection();
+    const userCollection = collection(this.firestore, Collections.Users);
+    this.users$ = collectionData(userCollection);
   }
 
-  signOut() {
-    this.authService.SignOut().subscribe();
+  async signOut() {
+    await this.auth.signOut();
+    await this.router.navigate(['/login']);
   }
 }

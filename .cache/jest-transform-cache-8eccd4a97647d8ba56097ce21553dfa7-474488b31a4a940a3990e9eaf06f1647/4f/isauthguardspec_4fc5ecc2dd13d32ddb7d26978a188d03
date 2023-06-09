@@ -1,0 +1,17 @@
+3a66277df176e42253bf61ce461e2164
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+jest.mock('@angular/fire/auth');
+const testing_1 = require("@angular/core/testing");
+const is_auth_guard_1 = require("@app/auth/guards/is-auth.guard");
+describe('IsAuthGuard', () => {
+    let guard;
+    beforeEach(() => {
+        testing_1.TestBed.configureTestingModule({});
+        guard = testing_1.TestBed.inject(is_auth_guard_1.IsAuthGuard);
+    });
+    it('should be created', () => {
+        expect(guard).toBeTruthy();
+    });
+});
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJmaWxlIjoiQzpcXFVzZXJzXFxVc2VyXFxEZXNrdG9wXFxrNmM2S0l4NHdiWUlNbm9Ob3JXN1xcc3JjXFxhcHBcXGF1dGhcXGd1YXJkc1xcaXMtYXV0aC5ndWFyZC5zcGVjLnRzIiwibWFwcGluZ3MiOiI7O0FBR0EsSUFBSSxDQUFDLElBQUksQ0FBQyxvQkFBb0IsQ0FBQyxDQUFDO0FBSGhDLG1EQUFnRDtBQUNoRCxrRUFBNkQ7QUFJN0QsUUFBUSxDQUFDLGFBQWEsRUFBRSxHQUFHLEVBQUU7SUFDM0IsSUFBSSxLQUFrQixDQUFDO0lBRXZCLFVBQVUsQ0FBQyxHQUFHLEVBQUU7UUFDZCxpQkFBTyxDQUFDLHNCQUFzQixDQUFDLEVBQUUsQ0FBQyxDQUFDO1FBQ25DLEtBQUssR0FBRyxpQkFBTyxDQUFDLE1BQU0sQ0FBQywyQkFBVyxDQUFDLENBQUM7SUFDdEMsQ0FBQyxDQUFDLENBQUM7SUFFSCxFQUFFLENBQUMsbUJBQW1CLEVBQUUsR0FBRyxFQUFFO1FBQzNCLE1BQU0sQ0FBQyxLQUFLLENBQUMsQ0FBQyxVQUFVLEVBQUUsQ0FBQztJQUM3QixDQUFDLENBQUMsQ0FBQztBQUNMLENBQUMsQ0FBQyxDQUFDIiwibmFtZXMiOltdLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcVXNlclxcRGVza3RvcFxcazZjNktJeDR3YllJTW5vTm9yVzdcXHNyY1xcYXBwXFxhdXRoXFxndWFyZHNcXGlzLWF1dGguZ3VhcmQuc3BlYy50cyJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBUZXN0QmVkIH0gZnJvbSAnQGFuZ3VsYXIvY29yZS90ZXN0aW5nJztcbmltcG9ydCB7IElzQXV0aEd1YXJkIH0gZnJvbSAnQGFwcC9hdXRoL2d1YXJkcy9pcy1hdXRoLmd1YXJkJztcblxuamVzdC5tb2NrKCdAYW5ndWxhci9maXJlL2F1dGgnKTtcblxuZGVzY3JpYmUoJ0lzQXV0aEd1YXJkJywgKCkgPT4ge1xuICBsZXQgZ3VhcmQ6IElzQXV0aEd1YXJkO1xuXG4gIGJlZm9yZUVhY2goKCkgPT4ge1xuICAgIFRlc3RCZWQuY29uZmlndXJlVGVzdGluZ01vZHVsZSh7fSk7XG4gICAgZ3VhcmQgPSBUZXN0QmVkLmluamVjdChJc0F1dGhHdWFyZCk7XG4gIH0pO1xuXG4gIGl0KCdzaG91bGQgYmUgY3JlYXRlZCcsICgpID0+IHtcbiAgICBleHBlY3QoZ3VhcmQpLnRvQmVUcnV0aHkoKTtcbiAgfSk7XG59KTtcbiJdLCJ2ZXJzaW9uIjozfQ==

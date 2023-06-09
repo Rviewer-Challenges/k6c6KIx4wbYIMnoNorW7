@@ -15,10 +15,10 @@ const routes: Routes = [
     loadChildren: () => import('@app/auth/auth.module').then(m => m.AuthModule),
     canActivate: [IsAuthGuard],
   },
-  {
-    path: '**',
-    redirectTo: 'error',
-  },
+  // {
+  //   path: '**',
+  //   redirectTo: 'error',
+  // },
 ];
 
 @NgModule({

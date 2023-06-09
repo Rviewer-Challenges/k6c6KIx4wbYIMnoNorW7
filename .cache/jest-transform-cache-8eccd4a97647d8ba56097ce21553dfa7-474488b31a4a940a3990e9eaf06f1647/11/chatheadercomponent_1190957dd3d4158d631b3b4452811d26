@@ -1,0 +1,206 @@
+aecedfa014dbfd2860963558da447b00
+"use strict";
+
+/* istanbul ignore next */
+function cov_cb83fvfvd() {
+  var path = "C:\\Users\\User\\Desktop\\k6c6KIx4wbYIMnoNorW7\\src\\app\\chat\\components\\chat-header\\chat-header.component.ts";
+  var hash = "f2323c2718ad5661ce146716c6d6da43281ed30c";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "C:\\Users\\User\\Desktop\\k6c6KIx4wbYIMnoNorW7\\src\\app\\chat\\components\\chat-header\\chat-header.component.ts",
+    statementMap: {
+      "0": {
+        start: {
+          line: 2,
+          column: 0
+        },
+        end: {
+          line: 2,
+          column: 62
+        }
+      },
+      "1": {
+        start: {
+          line: 3,
+          column: 0
+        },
+        end: {
+          line: 3,
+          column: 37
+        }
+      },
+      "2": {
+        start: {
+          line: 4,
+          column: 16
+        },
+        end: {
+          line: 4,
+          column: 32
+        }
+      },
+      "3": {
+        start: {
+          line: 5,
+          column: 15
+        },
+        end: {
+          line: 5,
+          column: 39
+        }
+      },
+      "4": {
+        start: {
+          line: 6,
+          column: 26
+        },
+        end: {
+          line: 23,
+          column: 1
+        }
+      },
+      "5": {
+        start: {
+          line: 21,
+          column: 8
+        },
+        end: {
+          line: 21,
+          column: 40
+        }
+      },
+      "6": {
+        start: {
+          line: 24,
+          column: 0
+        },
+        end: {
+          line: 30,
+          column: 24
+        }
+      },
+      "7": {
+        start: {
+          line: 31,
+          column: 0
+        },
+        end: {
+          line: 31,
+          column: 50
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "(anonymous_0)",
+        decl: {
+          start: {
+            line: 7,
+            column: 4
+          },
+          end: {
+            line: 7,
+            column: 5
+          }
+        },
+        loc: {
+          start: {
+            line: 7,
+            column: 18
+          },
+          end: {
+            line: 22,
+            column: 5
+          }
+        },
+        line: 7
+      }
+    },
+    branchMap: {},
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0
+    },
+    f: {
+      "0": 0
+    },
+    b: {},
+    inputSourceMap: {
+      file: "C:\\Users\\User\\Desktop\\k6c6KIx4wbYIMnoNorW7\\src\\app\\chat\\components\\chat-header\\chat-header.component.ts",
+      mappings: ";;;;AAAA,wCAA0C;AAU1C,IAAa,mBAAmB,GAAhC,MAAa,mBAAmB;IAAhC;QAGE,yCAAyC;QACzC,aAAa;QACb,aAAa;QACb,mBAAmB;QACnB,6BAA6B;QAC7B,uBAAuB;QACvB,uCAAuC;QACvC,mCAAmC;QACnC,wBAAwB;QACxB,eAAe;QACf,KAAK;QACL,KAAK;QAEL,2DAA2D;QAC3D,aAAQ,GAAG,eAAe,CAAC;IAC7B,CAAC;CAAA,CAAA;AAlBY,mBAAmB;IAL/B,IAAA,gBAAS,EAAC;QACT,QAAQ,EAAE,iBAAiB;QAC3B,WAAW,EAAE,8BAA8B;QAC3C,SAAS,EAAE,CAAC,8BAA8B,CAAC;KAC5C,CAAC;GACW,mBAAmB,CAkB/B;AAlBY,kDAAmB",
+      names: [],
+      sources: ["C:\\Users\\User\\Desktop\\k6c6KIx4wbYIMnoNorW7\\src\\app\\chat\\components\\chat-header\\chat-header.component.ts"],
+      sourcesContent: ["import { Component } from '@angular/core';\nimport { User } from '@app/interfaces/user.interface';\nimport { FirebaseService } from '@app/services/firebase.service';\nimport { map, Observable } from 'rxjs';\n\n@Component({\n  selector: 'app-chat-header',\n  templateUrl: './chat-header.component.html',\n  styleUrls: ['./chat-header.component.scss'],\n})\nexport class ChatHeaderComponent {\n  user$: Observable<User>;\n\n  // = this.firebaseService.getUser().pipe(\n  // map(x => {\n  //   return {\n  //     uid: x?.uid,\n  //     photoURL: x?.photoURL,\n  //     email: x?.email,\n  //     emailVerified: x?.emailVerified,\n  //     displayName: x?.displayName,\n  //     isLoggedIn: true,\n  //   } as User;\n  // })\n  // );\n\n  // constructor(private firebaseService: FirebaseService) {}\n  appTitle = 'Firebase Chat';\n}\n"],
+      version: 3
+    },
+    _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    hash: "f2323c2718ad5661ce146716c6d6da43281ed30c"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+  if (!coverage[path] || coverage[path].hash !== hash) {
+    coverage[path] = coverageData;
+  }
+  var actualCoverage = coverage[path];
+  {
+    // @ts-ignore
+    cov_cb83fvfvd = function () {
+      return actualCoverage;
+    };
+  }
+  return actualCoverage;
+}
+cov_cb83fvfvd();
+cov_cb83fvfvd().s[0]++;
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+/* istanbul ignore next */
+cov_cb83fvfvd().s[1]++;
+exports.ChatHeaderComponent = void 0;
+const tslib_1 =
+/* istanbul ignore next */
+(cov_cb83fvfvd().s[2]++, require("tslib"));
+const core_1 =
+/* istanbul ignore next */
+(cov_cb83fvfvd().s[3]++, require("@angular/core"));
+/* istanbul ignore next */
+cov_cb83fvfvd().s[4]++;
+let ChatHeaderComponent = class ChatHeaderComponent {
+  constructor() {
+    /* istanbul ignore next */
+    cov_cb83fvfvd().f[0]++;
+    cov_cb83fvfvd().s[5]++;
+    // = this.firebaseService.getUser().pipe(
+    // map(x => {
+    //   return {
+    //     uid: x?.uid,
+    //     photoURL: x?.photoURL,
+    //     email: x?.email,
+    //     emailVerified: x?.emailVerified,
+    //     displayName: x?.displayName,
+    //     isLoggedIn: true,
+    //   } as User;
+    // })
+    // );
+    // constructor(private firebaseService: FirebaseService) {}
+    this.appTitle = 'Firebase Chat';
+  }
+};
+/* istanbul ignore next */
+cov_cb83fvfvd().s[6]++;
+ChatHeaderComponent = tslib_1.__decorate([(0, core_1.Component)({
+  selector: 'app-chat-header',
+  templateUrl: './chat-header.component.html',
+  styleUrls: ['./chat-header.component.scss']
+})], ChatHeaderComponent);
+/* istanbul ignore next */
+cov_cb83fvfvd().s[7]++;
+exports.ChatHeaderComponent = ChatHeaderComponent;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJjb3ZfY2I4M2Z2ZnZkIiwiYWN0dWFsQ292ZXJhZ2UiLCJzIiwiY29yZV8xIiwicmVxdWlyZSIsIkNoYXRIZWFkZXJDb21wb25lbnQiLCJjb25zdHJ1Y3RvciIsImYiLCJhcHBUaXRsZSIsInRzbGliXzEiLCJfX2RlY29yYXRlIiwiQ29tcG9uZW50Iiwic2VsZWN0b3IiLCJ0ZW1wbGF0ZVVybCIsInN0eWxlVXJscyIsImV4cG9ydHMiXSwic291cmNlcyI6WyJDOlxcVXNlcnNcXFVzZXJcXERlc2t0b3BcXGs2YzZLSXg0d2JZSU1ub05vclc3XFxzcmNcXGFwcFxcY2hhdFxcY29tcG9uZW50c1xcY2hhdC1oZWFkZXJcXGNoYXQtaGVhZGVyLmNvbXBvbmVudC50cyJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBDb21wb25lbnQgfSBmcm9tICdAYW5ndWxhci9jb3JlJztcbmltcG9ydCB7IFVzZXIgfSBmcm9tICdAYXBwL2ludGVyZmFjZXMvdXNlci5pbnRlcmZhY2UnO1xuaW1wb3J0IHsgRmlyZWJhc2VTZXJ2aWNlIH0gZnJvbSAnQGFwcC9zZXJ2aWNlcy9maXJlYmFzZS5zZXJ2aWNlJztcbmltcG9ydCB7IG1hcCwgT2JzZXJ2YWJsZSB9IGZyb20gJ3J4anMnO1xuXG5AQ29tcG9uZW50KHtcbiAgc2VsZWN0b3I6ICdhcHAtY2hhdC1oZWFkZXInLFxuICB0ZW1wbGF0ZVVybDogJy4vY2hhdC1oZWFkZXIuY29tcG9uZW50Lmh0bWwnLFxuICBzdHlsZVVybHM6IFsnLi9jaGF0LWhlYWRlci5jb21wb25lbnQuc2NzcyddLFxufSlcbmV4cG9ydCBjbGFzcyBDaGF0SGVhZGVyQ29tcG9uZW50IHtcbiAgdXNlciQ6IE9ic2VydmFibGU8VXNlcj47XG5cbiAgLy8gPSB0aGlzLmZpcmViYXNlU2VydmljZS5nZXRVc2VyKCkucGlwZShcbiAgLy8gbWFwKHggPT4ge1xuICAvLyAgIHJldHVybiB7XG4gIC8vICAgICB1aWQ6IHg/LnVpZCxcbiAgLy8gICAgIHBob3RvVVJMOiB4Py5waG90b1VSTCxcbiAgLy8gICAgIGVtYWlsOiB4Py5lbWFpbCxcbiAgLy8gICAgIGVtYWlsVmVyaWZpZWQ6IHg/LmVtYWlsVmVyaWZpZWQsXG4gIC8vICAgICBkaXNwbGF5TmFtZTogeD8uZGlzcGxheU5hbWUsXG4gIC8vICAgICBpc0xvZ2dlZEluOiB0cnVlLFxuICAvLyAgIH0gYXMgVXNlcjtcbiAgLy8gfSlcbiAgLy8gKTtcblxuICAvLyBjb25zdHJ1Y3Rvcihwcml2YXRlIGZpcmViYXNlU2VydmljZTogRmlyZWJhc2VTZXJ2aWNlKSB7fVxuICBhcHBUaXRsZSA9ICdGaXJlYmFzZSBDaGF0Jztcbn1cbiJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0lBcUJFO0lBQUFBLGFBQUEsWUFBQUEsQ0FBQTtNQUFBLE9BQUFDLGNBQUE7SUFBQTtFQUFBO0VBQUEsT0FBQUEsY0FBQTtBQUFBO0FBQUFELGFBQUE7QUFBQUEsYUFBQSxHQUFBRSxDQUFBOzs7Ozs7Ozs7O0FBckJGLE1BQUFDLE1BQUE7QUFBQTtBQUFBLENBQUFILGFBQUEsR0FBQUUsQ0FBQSxPQUFBRSxPQUFBO0FBQTBDO0FBQUFKLGFBQUEsR0FBQUUsQ0FBQTtBQVUxQyxJQUFhRyxtQkFBbUIsR0FBaEMsTUFBYUEsbUJBQW1CO0VBQWhDQyxZQUFBO0lBQUE7SUFBQU4sYUFBQSxHQUFBTyxDQUFBO0lBQUFQLGFBQUEsR0FBQUUsQ0FBQTtJQUdFO0lBQ0E7SUFDQTtJQUNBO0lBQ0E7SUFDQTtJQUNBO0lBQ0E7SUFDQTtJQUNBO0lBQ0E7SUFDQTtJQUVBO0lBQ0EsS0FBQU0sUUFBUSxHQUFHLGVBQWU7RUFDNUI7Q0FBQztBQUFBO0FBQUFSLGFBQUEsR0FBQUUsQ0FBQTtBQWxCWUcsbUJBQW1CLEdBQUFJLE9BQUEsQ0FBQUMsVUFBQSxFQUwvQixJQUFBUCxNQUFBLENBQUFRLFNBQVMsRUFBQztFQUNUQyxRQUFRLEVBQUUsaUJBQWlCO0VBQzNCQyxXQUFXLEVBQUUsOEJBQThCO0VBQzNDQyxTQUFTLEVBQUUsQ0FBQyw4QkFBOEI7Q0FDM0MsQ0FBQyxDLEVBQ1dULG1CQUFtQixDQWtCL0I7QUFBQTtBQUFBTCxhQUFBLEdBQUFFLENBQUE7QUFsQllhLE9BQUEsQ0FBQVYsbUJBQUEsR0FBQUEsbUJBQUEifQ==

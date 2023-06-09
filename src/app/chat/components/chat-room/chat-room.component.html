@@ -1,12 +1,45 @@
 <app-chat-header></app-chat-header>
 <div class="page-content">
   <div class="container-fluid">
-    <p>users list:</p>
-    <pre> {{ getUsers$ | async | json }}</pre>
+    <div class="chat-wrapper d-lg-flex gap-1 mx-n4 mt-n4 p-1">
+      <div class="chat-leftsidebar">
+        <div class="px-4 pt-4 mb-3">
+          <div class="d-flex align-items-start">
+            <div class="flex-grow-1">
+              <h5 class="mb-4">Chats</h5>
+            </div>
+            <div class="flex-shrink-0">
+              <div
+                data-bs-toggle="tooltip"
+                data-bs-trigger="hover"
+                data-bs-placement="bottom"
+                aria-label="Add Contact"
+                data-bs-original-title="Add Contact">
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-soft-success btn-sm">
+                  <i class="ri-add-line align-bottom"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="search-box">
+            <input
+              type="text"
+              class="form-control bg-light border-light"
+              placeholder="Search here..." />
+            <i class="ri-search-2-line search-icon"></i>
+          </div>
+        </div>
 
-    <button type="button" class="btn btn-primary" (click)="signOut()">
-      Sign out
-    </button>
+        <pre> {{ users$ | async | json }}</pre>
+
+        <button type="button" class="btn btn-primary" (click)="signOut()">
+          Sign out
+        </button>
+      </div>
+      <div class="user-chat w-100 overflow-hidden"></div>
+    </div>
+
     <!-- <div class="chat-wrapper d-lg-flex gap-1 mx-n4 mt-n4 p-1">
 
       <p>users list:</p>

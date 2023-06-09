@@ -1,0 +1,16 @@
+98c95080a5b7da3a50147b2145d562d8
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const testing_1 = require("@angular/core/testing");
+const auth_guard_1 = require("@app/auth/guards/auth.guard");
+describe('AuthGuard', () => {
+    let guard;
+    beforeEach(() => {
+        testing_1.TestBed.configureTestingModule({});
+        guard = testing_1.TestBed.inject(auth_guard_1.AuthGuard);
+    });
+    it('should be created', () => {
+        expect(guard).toBeTruthy();
+    });
+});
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJmaWxlIjoiQzpcXFVzZXJzXFxVc2VyXFxEZXNrdG9wXFxrNmM2S0l4NHdiWUlNbm9Ob3JXN1xcc3JjXFxhcHBcXGF1dGhcXGd1YXJkc1xcYXV0aC5ndWFyZC5zcGVjLnRzIiwibWFwcGluZ3MiOiI7O0FBQUEsbURBQWdEO0FBQ2hELDREQUF3RDtBQUV4RCxRQUFRLENBQUMsV0FBVyxFQUFFLEdBQUcsRUFBRTtJQUN6QixJQUFJLEtBQWdCLENBQUM7SUFFckIsVUFBVSxDQUFDLEdBQUcsRUFBRTtRQUNkLGlCQUFPLENBQUMsc0JBQXNCLENBQUMsRUFBRSxDQUFDLENBQUM7UUFDbkMsS0FBSyxHQUFHLGlCQUFPLENBQUMsTUFBTSxDQUFDLHNCQUFTLENBQUMsQ0FBQztJQUNwQyxDQUFDLENBQUMsQ0FBQztJQUVILEVBQUUsQ0FBQyxtQkFBbUIsRUFBRSxHQUFHLEVBQUU7UUFDM0IsTUFBTSxDQUFDLEtBQUssQ0FBQyxDQUFDLFVBQVUsRUFBRSxDQUFDO0lBQzdCLENBQUMsQ0FBQyxDQUFDO0FBQ0wsQ0FBQyxDQUFDLENBQUMiLCJuYW1lcyI6W10sInNvdXJjZXMiOlsiQzpcXFVzZXJzXFxVc2VyXFxEZXNrdG9wXFxrNmM2S0l4NHdiWUlNbm9Ob3JXN1xcc3JjXFxhcHBcXGF1dGhcXGd1YXJkc1xcYXV0aC5ndWFyZC5zcGVjLnRzIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IFRlc3RCZWQgfSBmcm9tICdAYW5ndWxhci9jb3JlL3Rlc3RpbmcnO1xuaW1wb3J0IHsgQXV0aEd1YXJkIH0gZnJvbSAnQGFwcC9hdXRoL2d1YXJkcy9hdXRoLmd1YXJkJztcblxuZGVzY3JpYmUoJ0F1dGhHdWFyZCcsICgpID0+IHtcbiAgbGV0IGd1YXJkOiBBdXRoR3VhcmQ7XG5cbiAgYmVmb3JlRWFjaCgoKSA9PiB7XG4gICAgVGVzdEJlZC5jb25maWd1cmVUZXN0aW5nTW9kdWxlKHt9KTtcbiAgICBndWFyZCA9IFRlc3RCZWQuaW5qZWN0KEF1dGhHdWFyZCk7XG4gIH0pO1xuXG4gIGl0KCdzaG91bGQgYmUgY3JlYXRlZCcsICgpID0+IHtcbiAgICBleHBlY3QoZ3VhcmQpLnRvQmVUcnV0aHkoKTtcbiAgfSk7XG59KTtcbiJdLCJ2ZXJzaW9uIjozfQ==

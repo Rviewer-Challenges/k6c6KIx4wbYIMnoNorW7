@@ -1,18 +1,15 @@
-import { TestBed } from '@angular/core/testing';
+import { TestBed, waitForAsync } from '@angular/core/testing';
 import { AuthGuard } from '@app/auth/guards/auth.guard';
-import { AuthService } from '@app/auth/services/auth.service';
 
-jest.mock('@app/auth/services/auth.service');
+jest.mock('@angular/fire/auth');
 
 describe('AuthGuard', () => {
   let guard: AuthGuard;
 
-  beforeEach(() => {
-    TestBed.configureTestingModule({
-      providers: [AuthService],
-    });
+  beforeEach(waitForAsync(() => {
+    TestBed.configureTestingModule({});
     guard = TestBed.inject(AuthGuard);
-  });
+  }));
 
   it('should be created', () => {
     expect(guard).toBeTruthy();

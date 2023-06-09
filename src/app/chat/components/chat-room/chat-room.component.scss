@@ -6,3 +6,18 @@
 .page-content {
   padding: calc(50px + 1.5rem) calc(1.5rem * .5) 60px calc(1.5rem * .5);
 }
+
+.chat-leftsidebar {
+  height: calc(100vh - 137px);
+  position: relative;
+  background-color: #ffffff;
+}
+
+
+@media (min-width: 992px) {
+  .chat-leftsidebar {
+    min-width: 300px;
+    max-width: 300px;
+    height: calc(100vh - 138px);
+  }
+}

@@ -1,0 +1,395 @@
+d36418ee2a9947f4a3675351084af888
+"use strict";
+
+/* istanbul ignore next */
+function cov_1vtkdriva4() {
+  var path = "C:\\Users\\User\\Desktop\\k6c6KIx4wbYIMnoNorW7\\src\\app\\auth\\services\\auth.service.ts";
+  var hash = "197aedeb6d2263d9ea2715b01fc5fd40c5cba88e";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "C:\\Users\\User\\Desktop\\k6c6KIx4wbYIMnoNorW7\\src\\app\\auth\\services\\auth.service.ts",
+    statementMap: {
+      "0": {
+        start: {
+          line: 2,
+          column: 0
+        },
+        end: {
+          line: 2,
+          column: 62
+        }
+      },
+      "1": {
+        start: {
+          line: 3,
+          column: 0
+        },
+        end: {
+          line: 3,
+          column: 29
+        }
+      },
+      "2": {
+        start: {
+          line: 4,
+          column: 16
+        },
+        end: {
+          line: 4,
+          column: 32
+        }
+      },
+      "3": {
+        start: {
+          line: 5,
+          column: 15
+        },
+        end: {
+          line: 5,
+          column: 39
+        }
+      },
+      "4": {
+        start: {
+          line: 6,
+          column: 15
+        },
+        end: {
+          line: 6,
+          column: 30
+        }
+      },
+      "5": {
+        start: {
+          line: 7,
+          column: 18
+        },
+        end: {
+          line: 42,
+          column: 1
+        }
+      },
+      "6": {
+        start: {
+          line: 9,
+          column: 8
+        },
+        end: {
+          line: 9,
+          column: 45
+        }
+      },
+      "7": {
+        start: {
+          line: 10,
+          column: 8
+        },
+        end: {
+          line: 10,
+          column: 29
+        }
+      },
+      "8": {
+        start: {
+          line: 13,
+          column: 8
+        },
+        end: {
+          line: 13,
+          column: 28
+        }
+      },
+      "9": {
+        start: {
+          line: 20,
+          column: 8
+        },
+        end: {
+          line: 20,
+          column: 28
+        }
+      },
+      "10": {
+        start: {
+          line: 29,
+          column: 8
+        },
+        end: {
+          line: 29,
+          column: 28
+        }
+      },
+      "11": {
+        start: {
+          line: 43,
+          column: 0
+        },
+        end: {
+          line: 47,
+          column: 16
+        }
+      },
+      "12": {
+        start: {
+          line: 48,
+          column: 0
+        },
+        end: {
+          line: 48,
+          column: 34
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "(anonymous_0)",
+        decl: {
+          start: {
+            line: 8,
+            column: 4
+          },
+          end: {
+            line: 8,
+            column: 5
+          }
+        },
+        loc: {
+          start: {
+            line: 8,
+            column: 40
+          },
+          end: {
+            line: 11,
+            column: 5
+          }
+        },
+        line: 8
+      },
+      "1": {
+        name: "(anonymous_1)",
+        decl: {
+          start: {
+            line: 12,
+            column: 4
+          },
+          end: {
+            line: 12,
+            column: 5
+          }
+        },
+        loc: {
+          start: {
+            line: 12,
+            column: 13
+          },
+          end: {
+            line: 15,
+            column: 5
+          }
+        },
+        line: 12
+      },
+      "2": {
+        name: "(anonymous_2)",
+        decl: {
+          start: {
+            line: 16,
+            column: 4
+          },
+          end: {
+            line: 16,
+            column: 5
+          }
+        },
+        loc: {
+          start: {
+            line: 16,
+            column: 21
+          },
+          end: {
+            line: 18,
+            column: 5
+          }
+        },
+        line: 16
+      },
+      "3": {
+        name: "(anonymous_3)",
+        decl: {
+          start: {
+            line: 19,
+            column: 4
+          },
+          end: {
+            line: 19,
+            column: 5
+          }
+        },
+        loc: {
+          start: {
+            line: 19,
+            column: 14
+          },
+          end: {
+            line: 27,
+            column: 5
+          }
+        },
+        line: 19
+      },
+      "4": {
+        name: "(anonymous_4)",
+        decl: {
+          start: {
+            line: 28,
+            column: 4
+          },
+          end: {
+            line: 28,
+            column: 5
+          }
+        },
+        loc: {
+          start: {
+            line: 28,
+            column: 16
+          },
+          end: {
+            line: 41,
+            column: 5
+          }
+        },
+        line: 28
+      }
+    },
+    branchMap: {},
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0
+    },
+    f: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0
+    },
+    b: {},
+    inputSourceMap: {
+      file: "C:\\Users\\User\\Desktop\\k6c6KIx4wbYIMnoNorW7\\src\\app\\auth\\services\\auth.service.ts",
+      mappings: ";;;;AAAA,wCAA2C;AAC3C,+BAAyC;AAQzC,IAAa,WAAW,GAAxB,MAAa,WAAW;IACtB,YACU,cAAmC,EACnC,MAAc;QADd,mBAAc,GAAd,cAAc,CAAqB;QACnC,WAAM,GAAN,MAAM,CAAQ;IACrB,CAAC;IAEJ,MAAM;QACJ,OAAO,YAAK,CAAC;QACb,wDAAwD;IAC1D,CAAC;IAED,cAAc;QACZ,yDAAyD;IAC3D,CAAC;IAED,OAAO;QACL,OAAO,YAAK,CAAC;QACb,mDAAmD;QACnD,gBAAgB;QAChB,6CAA6C;QAC7C,uCAAuC;QACvC,OAAO;QACP,KAAK;IACP,CAAC;IAED,SAAS;QACP,OAAO,YAAK,CAAC;QACb,6CAA6C;QAC7C,kBAAkB;QAClB,kBAAkB;QAClB,mEAAmE;QACnE,qBAAqB;QACrB,eAAe;QACf,+CAA+C;QAC/C,sBAAsB;QACtB,QAAQ;QACR,OAAO;QACP,KAAK;IACP,CAAC;CAOF,CAAA;AA7CY,WAAW;IAHvB,IAAA,iBAAU,EAAC;QACV,UAAU,EAAE,MAAM;KACnB,CAAC;GACW,WAAW,CA6CvB;AA7CY,kCAAW",
+      names: [],
+      sources: ["C:\\Users\\User\\Desktop\\k6c6KIx4wbYIMnoNorW7\\src\\app\\auth\\services\\auth.service.ts"],
+      sourcesContent: ["import { Injectable } from '@angular/core';\nimport { EMPTY, Observable } from 'rxjs';\nimport { LocalStorageService } from '@app/services/local-storage.service';\nimport { Router } from '@angular/router';\nimport { Auth, User, user, authState } from '@angular/fire/auth';\n\n@Injectable({\n  providedIn: 'root',\n})\nexport class AuthService {\n  constructor(\n    private ngLocalStorage: LocalStorageService,\n    private router: Router\n  ) {}\n\n  SignIn() {\n    return EMPTY;\n    // return this.AuthLogin(new auth.GoogleAuthProvider());\n  }\n\n  FacebookSignIn() {\n    //return this.AuthLogin(new auth.FacebookAuthProvider());\n  }\n\n  SignOut(): Observable<void> {\n    return EMPTY;\n    // return from(this.ngFirebaseAuth.signOut()).pipe(\n    //   tap(() => {\n    //     this.ngLocalStorage.remove(Auth.User);\n    //     this.router.navigate(['login']);\n    //   })\n    // );\n  }\n\n  AuthState() {\n    return EMPTY;\n    // return this.ngFirebaseAuth.authState.pipe(\n    //   map(user => {\n    //     if (user) {\n    //       this.ngLocalStorage.save(Auth.User, JSON.stringify(user));\n    //       return true;\n    //     } else {\n    //       this.ngLocalStorage.remove(Auth.User);\n    //       return false;\n    //     }\n    //   })\n    // );\n  }\n\n  // private AuthLogin(\n  //   provider: firebase.auth.AuthProvider\n  // ): Observable<firebase.auth.UserCredential> {\n  //   return from(this.ngFirebaseAuth.signInWithPopup(provider));\n  // }\n}\n"],
+      version: 3
+    },
+    _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    hash: "197aedeb6d2263d9ea2715b01fc5fd40c5cba88e"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+  if (!coverage[path] || coverage[path].hash !== hash) {
+    coverage[path] = coverageData;
+  }
+  var actualCoverage = coverage[path];
+  {
+    // @ts-ignore
+    cov_1vtkdriva4 = function () {
+      return actualCoverage;
+    };
+  }
+  return actualCoverage;
+}
+cov_1vtkdriva4();
+cov_1vtkdriva4().s[0]++;
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+/* istanbul ignore next */
+cov_1vtkdriva4().s[1]++;
+exports.AuthService = void 0;
+const tslib_1 =
+/* istanbul ignore next */
+(cov_1vtkdriva4().s[2]++, require("tslib"));
+const core_1 =
+/* istanbul ignore next */
+(cov_1vtkdriva4().s[3]++, require("@angular/core"));
+const rxjs_1 =
+/* istanbul ignore next */
+(cov_1vtkdriva4().s[4]++, require("rxjs"));
+/* istanbul ignore next */
+cov_1vtkdriva4().s[5]++;
+let AuthService = class AuthService {
+  constructor(ngLocalStorage, router) {
+    /* istanbul ignore next */
+    cov_1vtkdriva4().f[0]++;
+    cov_1vtkdriva4().s[6]++;
+    this.ngLocalStorage = ngLocalStorage;
+    /* istanbul ignore next */
+    cov_1vtkdriva4().s[7]++;
+    this.router = router;
+  }
+  SignIn() {
+    /* istanbul ignore next */
+    cov_1vtkdriva4().f[1]++;
+    cov_1vtkdriva4().s[8]++;
+    return rxjs_1.EMPTY;
+    // return this.AuthLogin(new auth.GoogleAuthProvider());
+  }
+
+  FacebookSignIn() {
+    /* istanbul ignore next */
+    cov_1vtkdriva4().f[2]++;
+  } //return this.AuthLogin(new auth.FacebookAuthProvider());
+
+  SignOut() {
+    /* istanbul ignore next */
+    cov_1vtkdriva4().f[3]++;
+    cov_1vtkdriva4().s[9]++;
+    return rxjs_1.EMPTY;
+    // return from(this.ngFirebaseAuth.signOut()).pipe(
+    //   tap(() => {
+    //     this.ngLocalStorage.remove(Auth.User);
+    //     this.router.navigate(['login']);
+    //   })
+    // );
+  }
+
+  AuthState() {
+    /* istanbul ignore next */
+    cov_1vtkdriva4().f[4]++;
+    cov_1vtkdriva4().s[10]++;
+    return rxjs_1.EMPTY;
+    // return this.ngFirebaseAuth.authState.pipe(
+    //   map(user => {
+    //     if (user) {
+    //       this.ngLocalStorage.save(Auth.User, JSON.stringify(user));
+    //       return true;
+    //     } else {
+    //       this.ngLocalStorage.remove(Auth.User);
+    //       return false;
+    //     }
+    //   })
+    // );
+  }
+};
+/* istanbul ignore next */
+cov_1vtkdriva4().s[11]++;
+AuthService = tslib_1.__decorate([(0, core_1.Injectable)({
+  providedIn: 'root'
+})], AuthService);
+/* istanbul ignore next */
+cov_1vtkdriva4().s[12]++;
+exports.AuthService = AuthService;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJjb3ZfMXZ0a2RyaXZhNCIsImFjdHVhbENvdmVyYWdlIiwicyIsImNvcmVfMSIsInJlcXVpcmUiLCJyeGpzXzEiLCJBdXRoU2VydmljZSIsImNvbnN0cnVjdG9yIiwibmdMb2NhbFN0b3JhZ2UiLCJyb3V0ZXIiLCJmIiwiU2lnbkluIiwiRU1QVFkiLCJGYWNlYm9va1NpZ25JbiIsIlNpZ25PdXQiLCJBdXRoU3RhdGUiLCJ0c2xpYl8xIiwiX19kZWNvcmF0ZSIsIkluamVjdGFibGUiLCJwcm92aWRlZEluIiwiZXhwb3J0cyJdLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcVXNlclxcRGVza3RvcFxcazZjNktJeDR3YllJTW5vTm9yVzdcXHNyY1xcYXBwXFxhdXRoXFxzZXJ2aWNlc1xcYXV0aC5zZXJ2aWNlLnRzIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IEluamVjdGFibGUgfSBmcm9tICdAYW5ndWxhci9jb3JlJztcbmltcG9ydCB7IEVNUFRZLCBPYnNlcnZhYmxlIH0gZnJvbSAncnhqcyc7XG5pbXBvcnQgeyBMb2NhbFN0b3JhZ2VTZXJ2aWNlIH0gZnJvbSAnQGFwcC9zZXJ2aWNlcy9sb2NhbC1zdG9yYWdlLnNlcnZpY2UnO1xuaW1wb3J0IHsgUm91dGVyIH0gZnJvbSAnQGFuZ3VsYXIvcm91dGVyJztcbmltcG9ydCB7IEF1dGgsIFVzZXIsIHVzZXIsIGF1dGhTdGF0ZSB9IGZyb20gJ0Bhbmd1bGFyL2ZpcmUvYXV0aCc7XG5cbkBJbmplY3RhYmxlKHtcbiAgcHJvdmlkZWRJbjogJ3Jvb3QnLFxufSlcbmV4cG9ydCBjbGFzcyBBdXRoU2VydmljZSB7XG4gIGNvbnN0cnVjdG9yKFxuICAgIHByaXZhdGUgbmdMb2NhbFN0b3JhZ2U6IExvY2FsU3RvcmFnZVNlcnZpY2UsXG4gICAgcHJpdmF0ZSByb3V0ZXI6IFJvdXRlclxuICApIHt9XG5cbiAgU2lnbkluKCkge1xuICAgIHJldHVybiBFTVBUWTtcbiAgICAvLyByZXR1cm4gdGhpcy5BdXRoTG9naW4obmV3IGF1dGguR29vZ2xlQXV0aFByb3ZpZGVyKCkpO1xuICB9XG5cbiAgRmFjZWJvb2tTaWduSW4oKSB7XG4gICAgLy9yZXR1cm4gdGhpcy5BdXRoTG9naW4obmV3IGF1dGguRmFjZWJvb2tBdXRoUHJvdmlkZXIoKSk7XG4gIH1cblxuICBTaWduT3V0KCk6IE9ic2VydmFibGU8dm9pZD4ge1xuICAgIHJldHVybiBFTVBUWTtcbiAgICAvLyByZXR1cm4gZnJvbSh0aGlzLm5nRmlyZWJhc2VBdXRoLnNpZ25PdXQoKSkucGlwZShcbiAgICAvLyAgIHRhcCgoKSA9PiB7XG4gICAgLy8gICAgIHRoaXMubmdMb2NhbFN0b3JhZ2UucmVtb3ZlKEF1dGguVXNlcik7XG4gICAgLy8gICAgIHRoaXMucm91dGVyLm5hdmlnYXRlKFsnbG9naW4nXSk7XG4gICAgLy8gICB9KVxuICAgIC8vICk7XG4gIH1cblxuICBBdXRoU3RhdGUoKSB7XG4gICAgcmV0dXJuIEVNUFRZO1xuICAgIC8vIHJldHVybiB0aGlzLm5nRmlyZWJhc2VBdXRoLmF1dGhTdGF0ZS5waXBlKFxuICAgIC8vICAgbWFwKHVzZXIgPT4ge1xuICAgIC8vICAgICBpZiAodXNlcikge1xuICAgIC8vICAgICAgIHRoaXMubmdMb2NhbFN0b3JhZ2Uuc2F2ZShBdXRoLlVzZXIsIEpTT04uc3RyaW5naWZ5KHVzZXIpKTtcbiAgICAvLyAgICAgICByZXR1cm4gdHJ1ZTtcbiAgICAvLyAgICAgfSBlbHNlIHtcbiAgICAvLyAgICAgICB0aGlzLm5nTG9jYWxTdG9yYWdlLnJlbW92ZShBdXRoLlVzZXIpO1xuICAgIC8vICAgICAgIHJldHVybiBmYWxzZTtcbiAgICAvLyAgICAgfVxuICAgIC8vICAgfSlcbiAgICAvLyApO1xuICB9XG5cbiAgLy8gcHJpdmF0ZSBBdXRoTG9naW4oXG4gIC8vICAgcHJvdmlkZXI6IGZpcmViYXNlLmF1dGguQXV0aFByb3ZpZGVyXG4gIC8vICk6IE9ic2VydmFibGU8ZmlyZWJhc2UuYXV0aC5Vc2VyQ3JlZGVudGlhbD4ge1xuICAvLyAgIHJldHVybiBmcm9tKHRoaXMubmdGaXJlYmFzZUF1dGguc2lnbkluV2l0aFBvcHVwKHByb3ZpZGVyKSk7XG4gIC8vIH1cbn1cbiJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7SUFvQkU7SUFBQUEsY0FBQSxZQUFBQSxDQUFBO01BQUEsT0FBQUMsY0FBQTtJQUFBO0VBQUE7RUFBQSxPQUFBQSxjQUFBO0FBQUE7QUFBQUQsY0FBQTtBQUFBQSxjQUFBLEdBQUFFLENBQUE7Ozs7Ozs7Ozs7QUFwQkYsTUFBQUMsTUFBQTtBQUFBO0FBQUEsQ0FBQUgsY0FBQSxHQUFBRSxDQUFBLE9BQUFFLE9BQUE7QUFDQSxNQUFBQyxNQUFBO0FBQUE7QUFBQSxDQUFBTCxjQUFBLEdBQUFFLENBQUEsT0FBQUUsT0FBQTtBQUF5QztBQUFBSixjQUFBLEdBQUFFLENBQUE7QUFRekMsSUFBYUksV0FBVyxHQUF4QixNQUFhQSxXQUFXO0VBQ3RCQyxZQUNVQyxjQUFtQyxFQUNuQ0MsTUFBYztJQUFBO0lBQUFULGNBQUEsR0FBQVUsQ0FBQTtJQUFBVixjQUFBLEdBQUFFLENBQUE7SUFEZCxLQUFBTSxjQUFjLEdBQWRBLGNBQWM7SUFBcUI7SUFBQVIsY0FBQSxHQUFBRSxDQUFBO0lBQ25DLEtBQUFPLE1BQU0sR0FBTkEsTUFBTTtFQUNiO0VBRUhFLE1BQU1BLENBQUE7SUFBQTtJQUFBWCxjQUFBLEdBQUFVLENBQUE7SUFBQVYsY0FBQSxHQUFBRSxDQUFBO0lBQ0osT0FBT0csTUFBQSxDQUFBTyxLQUFLO0lBQ1o7RUFDRjs7RUFFQUMsY0FBY0EsQ0FBQTtJQUFBO0lBQUFiLGNBQUEsR0FBQVUsQ0FBQTtFQUVkLENBQUMsQ0FEQzs7RUFHRkksT0FBT0EsQ0FBQTtJQUFBO0lBQUFkLGNBQUEsR0FBQVUsQ0FBQTtJQUFBVixjQUFBLEdBQUFFLENBQUE7SUFDTCxPQUFPRyxNQUFBLENBQUFPLEtBQUs7SUFDWjtJQUNBO0lBQ0E7SUFDQTtJQUNBO0lBQ0E7RUFDRjs7RUFFQUcsU0FBU0EsQ0FBQTtJQUFBO0lBQUFmLGNBQUEsR0FBQVUsQ0FBQTtJQUFBVixjQUFBLEdBQUFFLENBQUE7SUFDUCxPQUFPRyxNQUFBLENBQUFPLEtBQUs7SUFDWjtJQUNBO0lBQ0E7SUFDQTtJQUNBO0lBQ0E7SUFDQTtJQUNBO0lBQ0E7SUFDQTtJQUNBO0VBQ0Y7Q0FPRDtBQUFBO0FBQUFaLGNBQUEsR0FBQUUsQ0FBQTtBQTdDWUksV0FBVyxHQUFBVSxPQUFBLENBQUFDLFVBQUEsRUFIdkIsSUFBQWQsTUFBQSxDQUFBZSxVQUFVLEVBQUM7RUFDVkMsVUFBVSxFQUFFO0NBQ2IsQ0FBQyxDLEVBQ1diLFdBQVcsQ0E2Q3ZCO0FBQUE7QUFBQU4sY0FBQSxHQUFBRSxDQUFBO0FBN0NZa0IsT0FBQSxDQUFBZCxXQUFBLEdBQUFBLFdBQUEifQ==

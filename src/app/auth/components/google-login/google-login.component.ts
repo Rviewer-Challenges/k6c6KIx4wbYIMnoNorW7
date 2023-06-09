@@ -1,8 +1,6 @@
-import { Component } from '@angular/core';
-import { AuthService } from '@app/auth/services/auth.service';
+import { Component, Optional } from '@angular/core';
 import { Router } from '@angular/router';
-import { EMPTY, switchMap } from 'rxjs';
-import { FirebaseService } from '@app/services/firebase.service';
+import { Auth, GoogleAuthProvider, signInWithPopup } from '@angular/fire/auth';
 
 @Component({
   selector: 'app-google-login',
@@ -10,33 +8,12 @@ import { FirebaseService } from '@app/services/firebase.service';
   styleUrls: ['./google-login.component.scss'],
 })
 export class GoogleLoginComponent {
-  constructor(
-    private authService: AuthService,
-    private router: Router,
-    private firebaseService: FirebaseService
-  ) {}
-
   buttonText = 'Sign in with Google';
+  constructor(@Optional() private auth: Auth, private router: Router) {}
 
-  googleAuth() {
-    this.authService
-      .SignIn()
-      .pipe(
-        switchMap(({ user }) =>
-          user
-            ? this.firebaseService.saveUser({
-                uid: user.uid,
-                email: user.email || 'N/A',
-                displayName: user.displayName || 'N/A',
-                photoURL: user.photoURL || 'N/A',
-                emailVerified: user.emailVerified,
-                isLoggedIn: true,
-              })
-            : EMPTY
-        )
-      )
-      .subscribe({
-        next: () => this.router.navigate(['chat']),
-      });
+  async googleAuth() {
+    const provider = new GoogleAuthProvider();
+    await signInWithPopup(this.auth, provider);
+    await this.router.navigate(['/chat']);
   }
 }

@@ -1,7 +1,6 @@
-import { Component } from '@angular/core';
-import { User } from '@app/interfaces/user.interface';
-import { FirebaseService } from '@app/services/firebase.service';
-import { map, Observable } from 'rxjs';
+import { Component, Optional } from '@angular/core';
+import { Observable } from 'rxjs';
+import { Auth, user, User } from '@angular/fire/auth';
 
 @Component({
   selector: 'app-chat-header',
@@ -9,19 +8,8 @@ import { map, Observable } from 'rxjs';
   styleUrls: ['./chat-header.component.scss'],
 })
 export class ChatHeaderComponent {
-  user$: Observable<User> = this.firebaseService.getUser().pipe(
-    map(x => {
-      return {
-        uid: x?.uid,
-        photoURL: x?.photoURL,
-        email: x?.email,
-        emailVerified: x?.emailVerified,
-        displayName: x?.displayName,
-        isLoggedIn: true,
-      } as User;
-    })
-  );
-
-  constructor(private firebaseService: FirebaseService) {}
   appTitle = 'Firebase Chat';
+
+  user$: Observable<User | null> = user(this.auth);
+  constructor(@Optional() private auth: Auth) {}
 }

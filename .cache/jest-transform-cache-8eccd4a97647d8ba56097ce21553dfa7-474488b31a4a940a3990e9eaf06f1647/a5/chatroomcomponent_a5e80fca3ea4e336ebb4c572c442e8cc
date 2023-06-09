@@ -1,0 +1,362 @@
+961b86d021b13822eefed679b362f811
+"use strict";
+
+/* istanbul ignore next */
+function cov_ydxgamtev() {
+  var path = "C:\\Users\\User\\Desktop\\k6c6KIx4wbYIMnoNorW7\\src\\app\\chat\\components\\chat-room\\chat-room.component.ts";
+  var hash = "83f9cf85ae79bfc03ca57df0aa40df229cfe8a87";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "C:\\Users\\User\\Desktop\\k6c6KIx4wbYIMnoNorW7\\src\\app\\chat\\components\\chat-room\\chat-room.component.ts",
+    statementMap: {
+      "0": {
+        start: {
+          line: 2,
+          column: 0
+        },
+        end: {
+          line: 2,
+          column: 62
+        }
+      },
+      "1": {
+        start: {
+          line: 3,
+          column: 0
+        },
+        end: {
+          line: 3,
+          column: 35
+        }
+      },
+      "2": {
+        start: {
+          line: 4,
+          column: 16
+        },
+        end: {
+          line: 4,
+          column: 32
+        }
+      },
+      "3": {
+        start: {
+          line: 5,
+          column: 15
+        },
+        end: {
+          line: 5,
+          column: 39
+        }
+      },
+      "4": {
+        start: {
+          line: 6,
+          column: 20
+        },
+        end: {
+          line: 6,
+          column: 54
+        }
+      },
+      "5": {
+        start: {
+          line: 7,
+          column: 25
+        },
+        end: {
+          line: 7,
+          column: 66
+        }
+      },
+      "6": {
+        start: {
+          line: 8,
+          column: 24
+        },
+        end: {
+          line: 22,
+          column: 1
+        }
+      },
+      "7": {
+        start: {
+          line: 10,
+          column: 8
+        },
+        end: {
+          line: 10,
+          column: 35
+        }
+      },
+      "8": {
+        start: {
+          line: 11,
+          column: 8
+        },
+        end: {
+          line: 11,
+          column: 25
+        }
+      },
+      "9": {
+        start: {
+          line: 12,
+          column: 8
+        },
+        end: {
+          line: 12,
+          column: 29
+        }
+      },
+      "10": {
+        start: {
+          line: 15,
+          column: 31
+        },
+        end: {
+          line: 15,
+          column: 110
+        }
+      },
+      "11": {
+        start: {
+          line: 16,
+          column: 8
+        },
+        end: {
+          line: 16,
+          column: 70
+        }
+      },
+      "12": {
+        start: {
+          line: 19,
+          column: 8
+        },
+        end: {
+          line: 19,
+          column: 34
+        }
+      },
+      "13": {
+        start: {
+          line: 20,
+          column: 8
+        },
+        end: {
+          line: 20,
+          column: 47
+        }
+      },
+      "14": {
+        start: {
+          line: 23,
+          column: 0
+        },
+        end: {
+          line: 31,
+          column: 22
+        }
+      },
+      "15": {
+        start: {
+          line: 32,
+          column: 0
+        },
+        end: {
+          line: 32,
+          column: 46
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "(anonymous_0)",
+        decl: {
+          start: {
+            line: 9,
+            column: 4
+          },
+          end: {
+            line: 9,
+            column: 5
+          }
+        },
+        loc: {
+          start: {
+            line: 9,
+            column: 41
+          },
+          end: {
+            line: 13,
+            column: 5
+          }
+        },
+        line: 9
+      },
+      "1": {
+        name: "(anonymous_1)",
+        decl: {
+          start: {
+            line: 14,
+            column: 4
+          },
+          end: {
+            line: 14,
+            column: 5
+          }
+        },
+        loc: {
+          start: {
+            line: 14,
+            column: 15
+          },
+          end: {
+            line: 17,
+            column: 5
+          }
+        },
+        line: 14
+      },
+      "2": {
+        name: "(anonymous_2)",
+        decl: {
+          start: {
+            line: 18,
+            column: 4
+          },
+          end: {
+            line: 18,
+            column: 5
+          }
+        },
+        loc: {
+          start: {
+            line: 18,
+            column: 20
+          },
+          end: {
+            line: 21,
+            column: 5
+          }
+        },
+        line: 18
+      }
+    },
+    branchMap: {},
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0,
+      "13": 0,
+      "14": 0,
+      "15": 0
+    },
+    f: {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    b: {},
+    inputSourceMap: {
+      file: "C:\\Users\\User\\Desktop\\k6c6KIx4wbYIMnoNorW7\\src\\app\\chat\\components\\chat-room\\chat-room.component.ts",
+      mappings: ";;;;AAAA,wCAA4D;AAK5D,uDAKiC;AACjC,mEAA6D;AAO7D,IAAa,iBAAiB,GAA9B,MAAa,iBAAiB;IAI5B,YACsB,SAAoB,EACpB,IAAU,EACtB,MAAc;QAFF,cAAS,GAAT,SAAS,CAAW;QACpB,SAAI,GAAJ,IAAI,CAAM;QACtB,WAAM,GAAN,MAAM,CAAQ;IACrB,CAAC;IACJ,QAAQ;QACN,MAAM,cAAc,GAAG,IAAA,sBAAU,EAAC,IAAI,CAAC,SAAS,EAAE,4BAAW,CAAC,KAAK,CAAC,CAAC;QACrE,IAAI,CAAC,MAAM,GAAG,IAAA,0BAAc,EAAC,cAAc,CAAC,CAAC;IAC/C,CAAC;IAED,KAAK,CAAC,OAAO;QACX,MAAM,IAAI,CAAC,IAAI,CAAC,OAAO,EAAE,CAAC;QAC1B,MAAM,IAAI,CAAC,MAAM,CAAC,QAAQ,CAAC,CAAC,QAAQ,CAAC,CAAC,CAAC;IACzC,CAAC;CACF,CAAA;AAlBY,iBAAiB;IAL7B,IAAA,gBAAS,EAAC;QACT,QAAQ,EAAE,eAAe;QACzB,WAAW,EAAE,4BAA4B;QACzC,SAAS,EAAE,CAAC,4BAA4B,CAAC;KAC1C,CAAC;IAMG,mBAAA,IAAA,eAAQ,GAAE,CAAA;IACV,mBAAA,IAAA,eAAQ,GAAE,CAAA;GANF,iBAAiB,CAkB7B;AAlBY,8CAAiB",
+      names: [],
+      sources: ["C:\\Users\\User\\Desktop\\k6c6KIx4wbYIMnoNorW7\\src\\app\\chat\\components\\chat-room\\chat-room.component.ts"],
+      sourcesContent: ["import { Component, OnInit, Optional } from '@angular/core';\nimport { Observable } from 'rxjs';\nimport { Auth } from '@angular/fire/auth';\nimport { Router } from '@angular/router';\n\nimport {\n  Firestore,\n  collectionData,\n  collection,\n  DocumentData,\n} from '@angular/fire/firestore';\nimport { Collections } from '@app/interfaces/user.interface';\n\n@Component({\n  selector: 'app-chat-room',\n  templateUrl: './chat-room.component.html',\n  styleUrls: ['./chat-room.component.scss'],\n})\nexport class ChatRoomComponent implements OnInit {\n  //private _users$ = new BehaviorSubject<IUser[]>([]);\n  public users$: Observable<DocumentData[]>;\n\n  constructor(\n    @Optional() private firestore: Firestore,\n    @Optional() private auth: Auth,\n    private router: Router\n  ) {}\n  ngOnInit(): void {\n    const userCollection = collection(this.firestore, Collections.Users);\n    this.users$ = collectionData(userCollection);\n  }\n\n  async signOut() {\n    await this.auth.signOut();\n    await this.router.navigate(['/login']);\n  }\n}\n"],
+      version: 3
+    },
+    _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    hash: "83f9cf85ae79bfc03ca57df0aa40df229cfe8a87"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+  if (!coverage[path] || coverage[path].hash !== hash) {
+    coverage[path] = coverageData;
+  }
+  var actualCoverage = coverage[path];
+  {
+    // @ts-ignore
+    cov_ydxgamtev = function () {
+      return actualCoverage;
+    };
+  }
+  return actualCoverage;
+}
+cov_ydxgamtev();
+cov_ydxgamtev().s[0]++;
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+/* istanbul ignore next */
+cov_ydxgamtev().s[1]++;
+exports.ChatRoomComponent = void 0;
+const tslib_1 =
+/* istanbul ignore next */
+(cov_ydxgamtev().s[2]++, require("tslib"));
+const core_1 =
+/* istanbul ignore next */
+(cov_ydxgamtev().s[3]++, require("@angular/core"));
+const firestore_1 =
+/* istanbul ignore next */
+(cov_ydxgamtev().s[4]++, require("@angular/fire/firestore"));
+const user_interface_1 =
+/* istanbul ignore next */
+(cov_ydxgamtev().s[5]++, require("@app/interfaces/user.interface"));
+/* istanbul ignore next */
+cov_ydxgamtev().s[6]++;
+let ChatRoomComponent = class ChatRoomComponent {
+  constructor(firestore, auth, router) {
+    /* istanbul ignore next */
+    cov_ydxgamtev().f[0]++;
+    cov_ydxgamtev().s[7]++;
+    this.firestore = firestore;
+    /* istanbul ignore next */
+    cov_ydxgamtev().s[8]++;
+    this.auth = auth;
+    /* istanbul ignore next */
+    cov_ydxgamtev().s[9]++;
+    this.router = router;
+  }
+  ngOnInit() {
+    /* istanbul ignore next */
+    cov_ydxgamtev().f[1]++;
+    const userCollection =
+    /* istanbul ignore next */
+    (cov_ydxgamtev().s[10]++, (0, firestore_1.collection)(this.firestore, user_interface_1.Collections.Users));
+    /* istanbul ignore next */
+    cov_ydxgamtev().s[11]++;
+    this.users$ = (0, firestore_1.collectionData)(userCollection);
+  }
+  async signOut() {
+    /* istanbul ignore next */
+    cov_ydxgamtev().f[2]++;
+    cov_ydxgamtev().s[12]++;
+    await this.auth.signOut();
+    /* istanbul ignore next */
+    cov_ydxgamtev().s[13]++;
+    await this.router.navigate(['/login']);
+  }
+};
+/* istanbul ignore next */
+cov_ydxgamtev().s[14]++;
+ChatRoomComponent = tslib_1.__decorate([(0, core_1.Component)({
+  selector: 'app-chat-room',
+  templateUrl: './chat-room.component.html',
+  styleUrls: ['./chat-room.component.scss']
+}), tslib_1.__param(0, (0, core_1.Optional)()), tslib_1.__param(1, (0, core_1.Optional)())], ChatRoomComponent);
+/* istanbul ignore next */
+cov_ydxgamtev().s[15]++;
+exports.ChatRoomComponent = ChatRoomComponent;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJjb3ZfeWR4Z2FtdGV2IiwiYWN0dWFsQ292ZXJhZ2UiLCJzIiwiY29yZV8xIiwicmVxdWlyZSIsImZpcmVzdG9yZV8xIiwidXNlcl9pbnRlcmZhY2VfMSIsIkNoYXRSb29tQ29tcG9uZW50IiwiY29uc3RydWN0b3IiLCJmaXJlc3RvcmUiLCJhdXRoIiwicm91dGVyIiwiZiIsIm5nT25Jbml0IiwidXNlckNvbGxlY3Rpb24iLCJjb2xsZWN0aW9uIiwiQ29sbGVjdGlvbnMiLCJVc2VycyIsInVzZXJzJCIsImNvbGxlY3Rpb25EYXRhIiwic2lnbk91dCIsIm5hdmlnYXRlIiwidHNsaWJfMSIsIl9fZGVjb3JhdGUiLCJDb21wb25lbnQiLCJzZWxlY3RvciIsInRlbXBsYXRlVXJsIiwic3R5bGVVcmxzIiwiX19wYXJhbSIsIk9wdGlvbmFsIiwiZXhwb3J0cyJdLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcVXNlclxcRGVza3RvcFxcazZjNktJeDR3YllJTW5vTm9yVzdcXHNyY1xcYXBwXFxjaGF0XFxjb21wb25lbnRzXFxjaGF0LXJvb21cXGNoYXQtcm9vbS5jb21wb25lbnQudHMiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgQ29tcG9uZW50LCBPbkluaXQsIE9wdGlvbmFsIH0gZnJvbSAnQGFuZ3VsYXIvY29yZSc7XG5pbXBvcnQgeyBPYnNlcnZhYmxlIH0gZnJvbSAncnhqcyc7XG5pbXBvcnQgeyBBdXRoIH0gZnJvbSAnQGFuZ3VsYXIvZmlyZS9hdXRoJztcbmltcG9ydCB7IFJvdXRlciB9IGZyb20gJ0Bhbmd1bGFyL3JvdXRlcic7XG5cbmltcG9ydCB7XG4gIEZpcmVzdG9yZSxcbiAgY29sbGVjdGlvbkRhdGEsXG4gIGNvbGxlY3Rpb24sXG4gIERvY3VtZW50RGF0YSxcbn0gZnJvbSAnQGFuZ3VsYXIvZmlyZS9maXJlc3RvcmUnO1xuaW1wb3J0IHsgQ29sbGVjdGlvbnMgfSBmcm9tICdAYXBwL2ludGVyZmFjZXMvdXNlci5pbnRlcmZhY2UnO1xuXG5AQ29tcG9uZW50KHtcbiAgc2VsZWN0b3I6ICdhcHAtY2hhdC1yb29tJyxcbiAgdGVtcGxhdGVVcmw6ICcuL2NoYXQtcm9vbS5jb21wb25lbnQuaHRtbCcsXG4gIHN0eWxlVXJsczogWycuL2NoYXQtcm9vbS5jb21wb25lbnQuc2NzcyddLFxufSlcbmV4cG9ydCBjbGFzcyBDaGF0Um9vbUNvbXBvbmVudCBpbXBsZW1lbnRzIE9uSW5pdCB7XG4gIC8vcHJpdmF0ZSBfdXNlcnMkID0gbmV3IEJlaGF2aW9yU3ViamVjdDxJVXNlcltdPihbXSk7XG4gIHB1YmxpYyB1c2VycyQ6IE9ic2VydmFibGU8RG9jdW1lbnREYXRhW10+O1xuXG4gIGNvbnN0cnVjdG9yKFxuICAgIEBPcHRpb25hbCgpIHByaXZhdGUgZmlyZXN0b3JlOiBGaXJlc3RvcmUsXG4gICAgQE9wdGlvbmFsKCkgcHJpdmF0ZSBhdXRoOiBBdXRoLFxuICAgIHByaXZhdGUgcm91dGVyOiBSb3V0ZXJcbiAgKSB7fVxuICBuZ09uSW5pdCgpOiB2b2lkIHtcbiAgICBjb25zdCB1c2VyQ29sbGVjdGlvbiA9IGNvbGxlY3Rpb24odGhpcy5maXJlc3RvcmUsIENvbGxlY3Rpb25zLlVzZXJzKTtcbiAgICB0aGlzLnVzZXJzJCA9IGNvbGxlY3Rpb25EYXRhKHVzZXJDb2xsZWN0aW9uKTtcbiAgfVxuXG4gIGFzeW5jIHNpZ25PdXQoKSB7XG4gICAgYXdhaXQgdGhpcy5hdXRoLnNpZ25PdXQoKTtcbiAgICBhd2FpdCB0aGlzLnJvdXRlci5uYXZpZ2F0ZShbJy9sb2dpbiddKTtcbiAgfVxufVxuIl0sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7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

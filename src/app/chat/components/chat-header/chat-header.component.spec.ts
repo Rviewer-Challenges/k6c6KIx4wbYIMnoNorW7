@@ -1,28 +1,19 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 import { ChatHeaderComponent } from '@app/chat/components/chat-header/chat-header.component';
-import { FirebaseService } from '@app/services/firebase.service';
-import { userMock } from '../../../../__test__/user.mock';
-import { of } from 'rxjs';
+
+jest.mock('@angular/fire/auth');
 
 describe('ChatHeaderComponent', () => {
   let component: ChatHeaderComponent;
   let fixture: ComponentFixture<ChatHeaderComponent>;
 
-  beforeEach(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ChatHeaderComponent],
-      providers: [
-        {
-          provide: FirebaseService,
-          useValue: {
-            getUser() {
-              return of(userMock);
-            },
-          },
-        },
-      ],
     });
+  }));
 
+  beforeEach(() => {
     fixture = TestBed.createComponent(ChatHeaderComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();

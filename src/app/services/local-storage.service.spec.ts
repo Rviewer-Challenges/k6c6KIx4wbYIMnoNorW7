@@ -1,14 +1,13 @@
-import { TestBed } from '@angular/core/testing';
-
+import { TestBed, waitForAsync } from '@angular/core/testing';
 import { LocalStorageService } from './local-storage.service';
 
 describe('LocalStorageService', () => {
   let service: LocalStorageService;
 
-  beforeEach(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({});
     service = TestBed.inject(LocalStorageService);
-  });
+  }));
 
   it('should be created', () => {
     expect(service).toBeTruthy();
